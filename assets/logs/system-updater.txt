@@ -1,0 +1,42 @@
+2024-04-21 17:44:25	Update #8: Completed!
+2024-04-21 17:44:25	Update #9: Initializing update
+2024-04-21 17:44:28	Update #9: Added: Pages > Recent
+2024-04-21 17:44:28	Update #9: Completed!
+2024-04-21 17:44:32	Update #10: Initializing update
+2024-04-21 17:44:32	Update #10: Installed ProcessLogger and added: Setup > Logs
+2024-04-21 17:44:32	Update #10: Installed InputfieldIcon
+2024-04-21 17:44:32	Update #10: Completed!
+2024-04-21 17:44:37	Update #11: Initializing update
+2024-04-21 17:44:37	Update #11: Completed!
+2024-04-21 17:44:37	Update #17: Created: /processwire-dev/site/assets/.htaccess
+2024-04-21 17:44:37	Update #17: Created: /processwire-dev/site/templates/.htaccess
+2024-04-21 17:44:37	Update #17: Created: /processwire-dev/site/modules/.htaccess
+2024-04-21 17:44:37	Update #12: Initializing update
+2024-04-21 17:44:37	Update #12: Added 'published' column to pages table
+2024-04-21 17:44:37	Update #12: Populated values to 'published' for 43 pages
+2024-04-21 17:44:37	Update #12: Completed!
+2024-04-21 17:44:37	Update #13: Initializing update
+2024-04-21 17:44:38	Update #13: Completed!
+2024-04-21 17:44:38	Update #14: Initializing update
+2024-04-21 17:44:38	Update #14: Completed!
+2024-04-21 17:44:38	Update #15: Initializing update
+2024-04-21 17:44:39	Update #15: Completed!
+2024-04-21 17:44:39	Update #16: Initializing update
+2024-04-21 17:44:39	Update #16: Completed!
+2024-04-21 17:47:08	Update #17: Initializing update
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/assets/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/assets/cache/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/assets/backups/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/assets/logs/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/templates/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Skipped: /processwire-dev/site/modules/.htaccess (already exists)
+2024-04-21 17:47:08	Update #17: Details: <a href='https://processwire.com/blog/posts/pw-3.0.135/' target='_blank'>https://processwire.com/blog/posts/pw-3.0.135/</a>
+2024-04-21 17:47:08	Update #17: Completed!
+2024-04-21 18:07:52	Update #18: Initializing update
+2024-04-21 18:07:52	Update #18: Completed!
+2024-04-21 18:07:52	Update #19: Initializing update
+2024-04-21 18:07:52	Update #19: Completed!
+2024-04-21 18:12:01	Update #20: Initializing update
+2024-04-21 18:12:01	Update #20: Updated 29 page(s) for correct created_users_id
+2024-04-21 18:12:01	Update #20: Completed!

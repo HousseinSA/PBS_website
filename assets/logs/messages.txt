@@ -1,0 +1,17 @@
+2024-04-21 18:35:38	admin1	http://localhost/processwire-dev/admin/page/edit/saveTemplate	Populated initial created/modified dates for 'image'
+2024-04-21 18:40:50	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "section_description" data in 0 row(s) from 0 page(s) using template "hero-section". [page-by-page]
+2024-04-21 18:50:54	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "section_title" data in 0 row(s) from 0 page(s) using template "Facilities". [page-by-page]
+2024-04-21 20:30:09	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "email" data in 0 row(s) from 0 page(s) using template "header". [page-by-page]
+2024-04-21 20:37:36	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "section_title" data in 1 row(s) from 1 page(s) using template "hero-section". [page-by-page]
+2024-04-21 20:49:17	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "linking" data in 2 row(s) from 2 page(s) using template "hero-section". [page-by-page]
+2024-04-21 23:43:40	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=0&modal=1	Populated initial created/modified dates for 'image' (FieldtypeImage)
+2024-04-21 23:49:13	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "image" data in 1 row(s) from 1 page(s) using template "header". [page-by-page] (Fields)
+2024-04-21 23:54:13	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=0&modal=1	Populated initial created/modified dates for 'icon_image' (FieldtypeImage)
+2024-04-21 23:55:47	admin1	http://localhost/processwire-dev/	Populated initial created/modified dates for 'image' (FieldtypeImage)
+2024-04-22 00:00:31	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "section_description" data in 0 row(s) from 0 page(s) using template "hero-section". [page-by-page] (Fields)
+2024-04-22 01:23:25	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "linking" data in 1 row(s) from 1 page(s) using template "Facilities". [page-by-page] (Fields)
+2024-04-22 01:23:44	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "linking" data in 1 row(s) from 1 page(s) using template "projects". [page-by-page] (Fields)
+2024-04-22 01:31:45	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=116	Deleted field "link" data in 0 row(s) from 0 page(s) using template "repeater_linking". [page-by-page] (Fields)
+2024-04-22 01:52:47	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=106	Deleted field "image" data in 0 row(s) from 0 page(s) using template "repeater_images". [page-by-page] (Fields)
+2024-04-22 02:01:10	admin1	http://localhost/processwire-dev/admin/module/	Populated initial created/modified dates for 'language_files_site' (FieldtypeFile)
+2024-04-22 02:01:10	admin1	http://localhost/processwire-dev/admin/module/	Populated initial created/modified dates for 'language_files' (FieldtypeFile)

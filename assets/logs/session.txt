@@ -1,0 +1,19 @@
+2024-04-21 17:44:37	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-21 18:12:24	admin1	http://localhost/processwire-dev/admin/login/?id=1	Successful login for 'admin1'
+2024-04-21 19:58:47	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-21 21:08:21	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-21 21:41:19	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-21 23:01:25	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-21 23:11:04	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-21 23:12:42	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-21 23:12:42	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-21 23:38:41	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-22 00:05:39	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 00:08:32	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-22 00:11:27	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 01:08:20	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-22 01:09:25	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 01:11:58	admin1	http://localhost/processwire-dev/admin/login/?id=1022	Successful login for 'admin1'
+2024-04-22 01:18:46	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 01:22:18	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-22 02:21:43	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
