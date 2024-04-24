@@ -7,16 +7,13 @@
                     <h3>
                         <?php echo $footer->title ;?>
                     </h3>
-
                     <p>
                         <?php echo $footer->section_description ;?>
                     </p>
-
                     <div class="footer-social">
                         <a href="" target="_blank" class="social-facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-
                         <a href="" target="_blank" class="social-twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
@@ -26,21 +23,14 @@
                         <a href="" target="_blank" class="social-twitter">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-
-
                     </div>
                 </div>
             </div>
-         
-            
             <div class="col-lg-3 col-sm-6">
                 <?php $footer_contact= $pages->get('/footer/contact/');?>
                 <div class="footer-widget">
-               
                     <h3> <?php echo $footer_contact->title; ?></h3>
                     <ul>
-                        
-                      
                         <li>
                             <a href="mailto:email@xpat.com">
                                 <i class="bx bxs-phone"></i>
@@ -66,8 +56,7 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="row align-items-center">
-               
+            <div class="row align-items-center justify-content-center">
                     <div class="copyright-text">
                        <?php echo $footer->copyright;?>
                     </div>
@@ -75,6 +64,8 @@
         </div>
     </div>
 </footer>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+		<i class="fas fa-long-arrow-alt-up"></i></a>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="<?php echo $config->urls->templates; ?>js/jquery-3.3.1.slim.min.js"></script>
@@ -152,44 +143,41 @@ $('.testimonial-slider').slick({
     
        <script>
 $('.client-slider').slick({
-  slidesToShow:6,
-  dots:false,
+  slidesToShow: 6,
+  dots: false,
   arrows: true,
-  autoplay:false,
-  autoplaySpeed:3000,
+  autoplay: true,
+  autoplaySpeed: 2000, // Set the base autoplay speed to 2 seconds
+  pauseOnHover: false, // Do not pause on hover
   swipe: true,
-    swipeToSlide: true,
-   responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow:4,
-        slidesToScroll: 1,
-        // centerMode: true,
-      }
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow:3,
-        slidesToScroll: 2,
-        dots:false,
-        infinite: true,
-
-      }
-    },  {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        dots:false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
-
-
+  swipeToSlide: true,
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      // centerMode: true,
+    }
+  }, {
+    breakpoint: 800,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      dots: false,
+      infinite: true,
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000, // Set autoplay speed to 2 seconds
+    }
+  }]
 });
-
   </script>
   
        <script>

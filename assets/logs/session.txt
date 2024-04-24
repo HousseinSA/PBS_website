@@ -17,3 +17,32 @@
 2024-04-22 01:18:46	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
 2024-04-22 01:22:18	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
 2024-04-22 02:21:43	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 12:22:35	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-22 22:34:32	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-22 23:22:00	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 14:02:22	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 14:11:11	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 17:06:49	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 18:02:26	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 18:08:16	admin1	http://localhost/processwire-dev/admin/login/edit/?id=1079	Successful login for 'admin1'
+2024-04-23 18:10:00	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 18:11:32	guest	http://localhost/processwire-dev/admin/login/edit/	Error: Failed login for 'admin1' - Invalid password
+2024-04-23 18:11:38	admin1	http://localhost/processwire-dev/admin/login/edit/	Successful login for 'admin1'
+2024-04-23 18:13:54	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 18:28:33	admin1	http://localhost/processwire-dev/admin/login/edit/	Successful login for 'admin1'
+2024-04-23 18:35:44	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 18:58:46	guest	http://localhost/processwire-dev/admin/login/	Error: Failed login for 'admin' - Unknown user
+2024-04-23 18:58:52	guest	http://localhost/processwire-dev/admin/login/	Error: Failed login for 'admin1' - Invalid password
+2024-04-23 18:58:56	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 21:31:19	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 21:54:15	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 22:04:04	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 22:59:34	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-23 23:25:30	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 23:36:35	admin1	http://localhost/processwire-dev/admin/login/edit/?id=1079	Successful login for 'admin1'
+2024-04-23 23:48:44	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-23 23:54:28	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-24 00:23:39	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-24 00:28:37	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
+2024-04-24 00:47:42	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-24 00:51:36	admin1	http://localhost/processwire-dev/admin/login/	Successful login for 'admin1'
