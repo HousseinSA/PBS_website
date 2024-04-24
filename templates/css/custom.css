@@ -1,5 +1,6 @@
 
 body, html {
+    color: #6f6f6f;
     font-size: 15px;
     line-height: 1.6;
 	font-family: 'Poppins', sans-serif;
@@ -176,18 +177,21 @@ a, button {
     position:fixed!important;
     top:0%!important;
     right: 0;
-	background:#ffffff!important;
+	background:#fff!important;
     left: 0;
     z-index:999;
 	transition:0.10s ease;
-    color: #ffffff;
-	box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.16);
+    color: #333;
+	box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
 }
 
-.navbar-scroll .navbar-brand img {
-}
+
 
 .navbar-brand img {
+    transition: all 0.5s ease;
+    width: 250px;
+    background-color: #ffff;
+    border-radius:24px 6px 6px 24px;
 }
 
 @keyframes slidedown {
@@ -217,7 +221,7 @@ a, button {
 	color:white;
     vertical-align: middle;
     content: "";
-    background:#ffffff;
+    background:#1f343a;
 	border-radius:5px;
 }
 .navbar-toggler-icon   i{
@@ -233,7 +237,7 @@ a, button {
 }
 
 .header-style-two {
-    background: #2e0202;
+    background: #2E0202;
     border-bottom: 0;
     padding: 10px 0px;
 }
@@ -254,7 +258,7 @@ a, button {
 }
 
 .header-style-two .header-right ul li {
-    color: #ffffff;
+    color: #fff;
 }
 .header-area .header-right ul li {
     list-style: none;
@@ -270,7 +274,7 @@ a, button {
     margin-right: 5px;
 }
 .header-style-two .header-left a i {
-    background: #4f0404;
+    background: #1f1c0c;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -294,12 +298,17 @@ a, button {
 
 @media only screen and (max-width:992px){
 
-
-    /* about section */
-
-    
-.about-style-two .about-text {
-    padding-left: 0px !important;
+.header-area .header-right ul li {
+    list-style: none;
+    text-align: center!important;
+    display: block!important;
+    font-size: 13px!important;
+    margin-left:0px;
+    position: relative;
+}
+.navigation {
+    padding:5px 0px!important;
+    z-index: 3;
 }
 
 .text-box .inner .title {
@@ -311,18 +320,13 @@ a, button {
 .padding-bg-screen{
      padding-top:50px;
    }
-.nav-item .nav-link {
+ .nav-item a {
     /* background-color: #333; */
-    color: #eaeaea!important;
-    border-bottom: 1px solid #474747;
-    padding: 4px 3px!important;
+    color: #5f5f5f!important;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 4px 18px!important;
 }
 
-.nav-item .nav-link i {
-    position: absolute;
-    right: 10px;
-    top: 11px;
-}
  .outer-ul{
   display:block!important;
 }
@@ -341,7 +345,7 @@ a, button {
 	 transform:translateX(100%);
 	 z-index:-1;
 	 height:100vh;
-	 background-color:rgb(51, 5, 5);
+	 background-color:white;
 	 overflow:auto;
    }
      
@@ -360,7 +364,7 @@ a, button {
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #333;
     opacity: 1;
     left: 0;
     top: 0;
@@ -433,7 +437,7 @@ a, button {
 
 
 .small-menu{
-    background: #ffffff;
+    background: #fff;
     border-bottom: 1px groove rgba(0, 0, 0, .1);
     box-shadow: 5px 5px 2px rgb(23 36 52 / 5%);
     position: relative;
@@ -459,7 +463,7 @@ a, button {
 
 .small-menu a {
     display: block;
-    color: #544f4f;
+    color: #ccc;
 	font-weight:500;
     font-size: 13px;
     border-bottom: 1px groove rgba(0, 0, 0, .1);
@@ -486,7 +490,7 @@ a, button {
 
 
 .small-menu a:hover {
-    color: #fff !important;
+    color: #2E0202 !important;
 }
 
 .bg-lightest {
@@ -528,12 +532,12 @@ a, button {
 }
 
 .stm-iconbox i {
-  color: #ffffff;
+  color: #999999;
     margin-right: 5px;
 }
 .stm-iconbox__text, .stm-iconbox__description {
     font-size: 11px;
-    color: #676565;
+    color: #999999;
     line-height: 17px;
     font-weight: 400;
 }
@@ -545,29 +549,35 @@ a, button {
 .header-item{
  margin:0px 20px;
 }
-
-
 .navigation {
-      background-color: #ffffff;
     padding: 8px 0px;
     z-index: 3;
 }
-
 .navbar-nav .nav-item{
 	position:relative;
 }
-
 .navbar-brand {
     font-weight: 900;
     font-size:30px;
 	color: #fff;
 	padding:0px;
 }
+ .navbar-nav .nav-item a{
+    color: #000;
+    font-weight: 500;
+}
+.navbar-scroll .appoint-btn a {
+    background: #fff;
+	border:1px solid #000;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
 
-
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item a{
     font-size: 16px;
-    color: #2e2c2c;
+    /* color: #fff; */
     background: none !important;
     padding: 28px 15px;
     font-weight: normal;
@@ -592,7 +602,7 @@ a, button {
 
 .appoint-btn a {
     background: #fff;
-    color: #575757;
+    color: #000;
     font-size: 14px;
     padding: 10px 15px;
     border-radius: 30px;
@@ -614,8 +624,8 @@ a, button {
 
 .btn-theme-colored {
     color: #fff;
-    background-color: #676565;
-    border-color: #676565;
+    background-color: #f44336;
+    border-color: #f44336;
 }
 .btn {
     font-size: 15px;
@@ -630,11 +640,11 @@ a, button {
 
 .menu-bar i {
     font-size:24px;
-    color: #676565;
+    color: #222;
 }
 
 .label-warning {
-    background-color: #676565;
+    background-color: #f0ad4e;
 }
 .menu-bar {
     margin-left: 38px;
@@ -647,7 +657,7 @@ a, button {
 }
 
 @media only screen and (min-width:1200px){
-.navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item a{
     padding: 9px 10px!important;
 }	
 }
@@ -668,7 +678,7 @@ a, button {
 
 
 .text-theme-colored {
-    color: #333333 !important;
+    color: #FFAB00 !important;
 }
 .font-24 {
     font-size: 24px !important;
@@ -765,6 +775,29 @@ a, button {
 
 
 
+.tp-leftarrow.preview1:after {
+    content:'\f053';
+}
+
+.tparrows.preview1:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	content:'\e5e0';
+      font-family: 'Material Icons';
+    color: #fff!important;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #fff;
+    background: rgba(0,0,0,0.15);
+    z-index: 2;
+    line-height: 100px;
+    -webkit-transition: background 0.3s, color 0.3s;
+    -moz-transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
+}
 
 
 /*------about--seection----*/
@@ -796,7 +829,7 @@ a, button {
 }
 
 .about-style-two .about-img img {
-    border-radius: 40px !important;
+    border-radius: 55px;
     padding: 15px;
 }
 
@@ -838,7 +871,7 @@ a, button {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    background: #575757;
+    background: #ffbe00;
     font-size: 12px;
     display: inline-block;
     margin-bottom: 10px;
@@ -860,7 +893,7 @@ a, button {
 
 .footer-area .footer-widget .newsletter-area h3 {
     font-size: 18px;
-    color: #500202;
+    color: #2E0202;
     margin-bottom: 20px;
 }
 
@@ -893,8 +926,8 @@ a, button {
     position: absolute;
     top: 0;
     right: 0;
-    background: #575757;
-    color: #140452;
+    background: #2E0202;
+    color: #1f1c0c;
     height: 100%;
     -webkit-transition: .5s;
     transition: .5s;
@@ -931,7 +964,7 @@ a, button {
 .footer-area .footer-widget h3::before {
     position: absolute;
     content: '';
-    background: hsl(0, 95%, 15%);
+    background: #2E0202;
     width: 2px;
     height: 100%;
     left: 0;
@@ -939,7 +972,7 @@ a, button {
 }
 
 .footer-area .footer-bottom {
-    border-top: 1px solid hwb(353 3% 64%);
+    border-top: 1px solid #6d6b61;
     padding: 20px 0;
     margin-top: 70px;
 }
@@ -970,7 +1003,7 @@ a, button {
 }
 
 .footer-area .footer-bottom .copyright-text p a {
-    color: #500202;
+    color: #2E0202;
     font-weight: 500;
 }
 
@@ -1004,7 +1037,7 @@ a, button {
 }
 
 #scrollUp svg {
-    fill: #500202;
+    fill: #ffea04;
     transform: rotate(225deg);
     width: 20px;
 }
@@ -1069,7 +1102,7 @@ a, button {
 .gal-item {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 100% !important;
 }
 
 .gal-item .hover-info {
@@ -1122,7 +1155,7 @@ a, button {
 
 .section-title p {
     max-width: 720px;
-    color: #500202;
+    color: #4a483e;
     margin: 0 auto;
 }
 .project-slider {
@@ -1136,16 +1169,13 @@ a, button {
 /*----facility------*/
 
 .facilities-section .facilities-img {
-    background-image: url(../img/slider/slider_2.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: center center !important;
+    background-size: cover !important;
     height: 100%;
-}
-
+}   
 .facilities-section {
-  background-image: url(../img/slider/slider_2.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: center center !important;
+    background-size: cover !important;
 	overflow:hidden;
     position: relative;
     z-index: 0;
@@ -1166,21 +1196,18 @@ a, button {
     padding-left: 0;
     margin-bottom: 0;
 }
-
 .facilities-section .facililties-text ul li {
     list-style: none;
     display: inline-block;
-    width: 250px;
     margin-bottom: 5px;
     color: #ffffff;
     position: relative;
     padding-left: 15px;
 }
-
 .facilities-section .facililties-text ul li::before {
     position: absolute;
     content: '';
-    background: #575757;
+    background: #2E0202;
     width: 8px;
     height: 8px;
     top: 6px;
@@ -1248,6 +1275,7 @@ a, button {
   height:100%;
   background-position:center center !important;
   background-size:cover !important;
+
 }
 
 
@@ -1322,7 +1350,7 @@ background-color: #f5f5f5;
 .service-style-three .service-card img:after {
     position: absolute;
     content: '';
-    background: #500202;
+    background:#2E0202 ;
     width: 45px;
     height: 45px;
     border-radius: 50px;
@@ -1372,7 +1400,7 @@ hr.main {
     width: 50px;
     height: 2px;
     border: none;
-    background: #575757;
+    background: #2E0202;
 }
 
 .sub-bnr .breadcrumb {
@@ -1454,8 +1482,8 @@ hr.main {
 }
 
 .contact-section .contact-card i {
-    color: #f9f7f7;
-    background: #575757;
+    color: white;
+    background: #1f1c0c;
     font-size: 20px;
     width: 35px;
     height: 35px;
@@ -1512,8 +1540,8 @@ textarea {
 }
 
 .contact-section .contact-area .default-btn {
-    background: #444242;
-    color: #1f1c0c;
+    background: #2E0202;
+    color: white;
     padding: 15px 30px;
     border-radius: 30px;
     -webkit-transition: .5s;
@@ -1521,9 +1549,30 @@ textarea {
     border: 1px solid #1f1c0c;
 }
 
-.client-section{
-	position:relative;
-	width:100%;
-	overflow:hidden;
-	
+
+
+/*--------pages--styless------*/
+
+.about-us {
+    background: rgba(248, 249, 249, 0.69);
+    padding-bottom: 80px;
+}
+.sec-padd-top {
+    padding-top: 80px;
+}
+
+
+.table thead tr th{
+	color:#000;
+}
+
+tbody td img.img-thumbnail {
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+}
+
+tbody td img {
+    width: 100px;
+    margin: 0px auto;
+    text-align: center;
 }

@@ -15,3 +15,6 @@
 2024-04-22 01:52:47	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=106	Deleted field "image" data in 0 row(s) from 0 page(s) using template "repeater_images". [page-by-page] (Fields)
 2024-04-22 02:01:10	admin1	http://localhost/processwire-dev/admin/module/	Populated initial created/modified dates for 'language_files_site' (FieldtypeFile)
 2024-04-22 02:01:10	admin1	http://localhost/processwire-dev/admin/module/	Populated initial created/modified dates for 'language_files' (FieldtypeFile)
+2024-04-24 01:03:15	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "work_time" data in 0 row(s) from 0 page(s) using template "contact". [page-by-page] (Fields)
+2024-04-24 01:03:15	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "image" data in 0 row(s) from 0 page(s) using template "contact". [page-by-page] (Fields)
+2024-04-24 01:51:55	admin1	http://localhost/processwire-dev/admin/setup/field/save?id=126	Deleted field "sub_title" data in 4 row(s) from 4 page(s) using template "repeater_project". [page-by-page] (Fields)
