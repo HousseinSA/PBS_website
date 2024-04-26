@@ -1,10 +1,9 @@
 <?php
-
 namespace ProcessWire;
+$page->edit(true);	
 ?>
 
 <?php include('head.inc'); ?>
-
 
 
 <!-- hero section start  -->
@@ -20,11 +19,9 @@ namespace ProcessWire;
 					<?php foreach ($pages->get('/hero-section/')->children() as $hero) : ?>
 						<li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
 							<!--  BACKGROUND IMAGE -->
-							<img src="<?php echo $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
-
+								<img src="<?php echo $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
 							<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
 							</div>
-
 							<div class="tp-caption slide-big-heading sft" data-x="30" data-y="170" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
 								<?php echo $hero->section_title; ?>
 							</div>
@@ -45,7 +42,6 @@ namespace ProcessWire;
 		<!-- home end -->
 	</section>
 	<!-- revolution slider end -->
-
 </div>
 
 <!-- hero section ends  -->
@@ -59,22 +55,22 @@ namespace ProcessWire;
 			<!-- Image column -->
 			<div class="col-lg-5">
 				<div class="about-img">
-					<img src="<?php echo $about->image->url; ?>" alt="about image" class="img-fluid rounded">
+						<img src="<?php echo $about->image->url; ?>" alt="about image" class="img-fluid rounded">
 				</div>
 			</div>
-
 			<!-- Text column -->
 			<div class="col-lg-7">
 				<div class="about-text">
-					<div class="section-title">
+					<div class="section-title ">
 						<span>
+						
 							<?php echo $about->title; ?>
 						</span>
 						<h2>
 							<?php echo $about->sub_title; ?>
 						</h2>
+						<?php echo $about->section_description; ?>
 					</div>
-					<?php echo $about->section_description; ?>
 				</div>
 			</div>
 		</div>
@@ -132,7 +128,7 @@ namespace ProcessWire;
 		<div class="row">
 			<div class="col-lg-5 offset-lg-1 p-lg-0">
 				<div class="facililties-text pt-100 pb-70">
-					<div class="section-title">
+					<div class="section-title ">
 						<span>
 							<?php echo $facilities->title; ?>
 						</span>

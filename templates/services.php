@@ -1,4 +1,6 @@
-<?php include("head.inc"); ?>
+<?php include("head.inc");
+$page->edit(true);
+?>
 
     <section class="sub-bnr">
         <div class="position-center-center">
@@ -14,7 +16,7 @@
         </div>
         <div class="scroll"> <a href="#content" class="go-down"></a></div>
     </section>
-    <section class="about-us sec-padd-top">
+    <section class="about-us sec-padd-top" id="content">
         <div class="container">
 
         <?php foreach($page->children() as $service):?>

@@ -1,4 +1,6 @@
-<?php include("head.inc"); ?>
+<?php include("head.inc");
+$page->edit(true);
+?>
 <section class="sub-bnr">
     <div class="position-center-center">
         <div class="container">
@@ -13,11 +15,12 @@
     </div>
     <div class="scroll"> <a href="#content" class="go-down"></a></div>
 </section>
-<section class="about-us sec-padd-top">
+<section class="about-us sec-padd-top" id="content">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-5 col-sm-12">
                 <figure class="about-img">
+                    
                     <img src="<?php echo $page->image->url?>" class="img-fluid" alt="About Trenty Engineering Construction">
                 </figure>
             </div>

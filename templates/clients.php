@@ -1,4 +1,6 @@
-<?php include('head.inc');?>
+<?php include('head.inc');
+$page->edit(true);
+?>
 
 
 
@@ -17,7 +19,7 @@
     <div class="scroll"> <a href="#content" class="go-down"></a></div>
   </section>
 <!-- End Breadcrumb Area -->
-			<section class="about-us sec-padd-top">
+			<section class="about-us sec-padd-top" id="content">
     			<div class="container">
         			<div class="row mb25">
             			<div class="col-md-12 col-sm-12">

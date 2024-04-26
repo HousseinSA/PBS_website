@@ -11,7 +11,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <title>PSB</title>
+    <title>PBS | <?php echo $page->title?></title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -22,7 +22,10 @@
       rel="stylesheet"
       href="<?php echo $config->urls->templates; ?>css/custom.css"
     />
-    <link rel="stylesheet" href="font/flaticon.css" />
+
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link
       rel="stylesheet"
@@ -43,7 +46,6 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     />
-
     <link
       rel="stylesheet"
       href="https://pro.font.com/releases/v5.10.0/css/all.css"
@@ -85,7 +87,7 @@
                   <i class="fab fa-twitter"></i>
                 </a>
                 <a href="" target="_blank" class="social-twitter">
-                  <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
                 </a>
                 <a href="" target="_blank" class="social-twitter">
                   <i class="fab fa-linkedin-in"></i>
@@ -143,7 +145,7 @@
     }
     ?>
 </select>
-</li>
+</li> 
                 </ul>
               </div>
             </div>
@@ -191,7 +193,6 @@
 
           // Load the MarkupMenuBuilder module
           $menu = $modules->get('MarkupMenuBuilder');
-          
           // Render the menu with the specified options
           echo $menu->render('main', $defaultOptions);
                ?>

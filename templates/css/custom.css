@@ -237,7 +237,7 @@ a, button {
 }
 
 .header-style-two {
-    background: #2E0202;
+    background: #8A1B2A;
     border-bottom: 0;
     padding: 10px 0px;
 }
@@ -255,6 +255,7 @@ a, button {
 .header-area .header-right ul {
     padding-left: 0;
     margin-bottom: 0;
+    
 }
 
 .header-style-two .header-right ul li {
@@ -274,7 +275,7 @@ a, button {
     margin-right: 5px;
 }
 .header-style-two .header-left a i {
-    background: #1f1c0c;
+    background: #575757;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -288,7 +289,6 @@ a, button {
 }
 
 
-
 @media only screen and (min-width:992px){
    .small-display{display:none;}
    .padding-bg-screen{
@@ -296,14 +296,48 @@ a, button {
    }
 }
 
+@media only screen and (max-width:850px){
+
+/* remove social  */
+    .header-area .header-left{
+        display: none;
+    }
+    
+}
+
+/* footer copyright */
+
+.copyright-text{
+    font-size: 14.5px;
+    font-weight: normal ;
+}
+
 @media only screen and (max-width:992px){
+
+/* about changes   */
+
+.about-style-two .about-text .section-title {
+    text-align:center !important;
+}
+.about-style-two .about-text {
+    padding-left: 0px !important;
+}
+/* header */
+.header-area .header-right ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 .header-area .header-right ul li {
     list-style: none;
-    text-align: center!important;
-    display: block!important;
+    /* text-align: center!important; */
+    /* display: block!important; */
     font-size: 13px!important;
     margin-left:0px;
+    flex-wrap: wrap;
     position: relative;
 }
 .navigation {
@@ -431,9 +465,6 @@ a, button {
   outline:none;
   border:none;
 }
-
-
-
 
 
 .small-menu{
@@ -596,7 +627,7 @@ a, button {
 
 
 .navbar-nav .nav-item.active .nav-link {
-    color: #fff;
+    color: #000;
     font-weight: 500;
 }
 
@@ -664,8 +695,8 @@ a, button {
 
 
 .navbar-nav .nav-item.active:after{
-			background-color: #fff;
-			width: 75%!important;
+			background-color: red;
+			width: 75%!important;   
 		}
 		
 .navbar-nav .nav-item:hover:after, .nav-item.active:after {
@@ -825,8 +856,6 @@ a, button {
     margin: auto;
 }
 
-.about-style-two .about-text p {
-}
 
 .about-style-two .about-img img {
     border-radius: 55px;
@@ -893,7 +922,7 @@ a, button {
 
 .footer-area .footer-widget .newsletter-area h3 {
     font-size: 18px;
-    color: #2E0202;
+    color: #8A1B2A;
     margin-bottom: 20px;
 }
 
