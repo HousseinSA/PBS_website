@@ -12,7 +12,9 @@
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
     <title>PBS | <?php echo $page->title?></title>
-    <!-- Bootstrap CSS -->
+    <!-- favicon -->
+    <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->  
     <link
       rel="stylesheet"
       href="<?php echo $config->urls->templates; ?>css/bootstrap.min.css"
@@ -22,7 +24,6 @@
       rel="stylesheet"
       href="<?php echo $config->urls->templates; ?>css/custom.css"
     />
-
     <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
@@ -119,7 +120,6 @@
     $userLanguageFound = false;
     foreach ($languages as $language) {
         if (!$page->viewable($language)) continue;
-
         // Check if the current language matches the user's language
         if ($user->language->id == $language->id) {
             $userLanguageFound = true;
@@ -127,7 +127,6 @@
         } else {
             $selected = '';
         }
-
         // Generate the local URL for the language
         $url = $page->localUrl($language);
         
@@ -139,7 +138,6 @@
     if (!$userLanguageFound) {
         $defaultLanguage = $languages->getDefault();
         $defaultUrl = $page->localUrl($defaultLanguage);
-
         // Output the option element for the default language
         echo '<option value="' . htmlspecialchars($defaultUrl, ENT_QUOTES, 'UTF-8') . '" selected="selected">' . htmlspecialchars($defaultLanguage->title, ENT_QUOTES, 'UTF-8') . '</option>';
     }
@@ -183,14 +181,13 @@
               'has_children_class' => '', // CSS Class for any menu item that has children
               'first_class' => '', // CSS Class for the first item in
               'last_class' => '',
-              'current_class' => '',
+              'current_class' => 'active',
               'default_title' => 0, // 0=show saved titles; 1=show actual/current titles
               'include_children' => 4, // whether to include natural/pw children of menu items in navigation; 0=never; 1=in menu only; 2=in breadcrumbs only; 3=in both; 4=do not show
               'm_max_level' => 1, // how deep to fetch 'include_children'
               'current_class_level' => 1, // how high up the ancestral tree to apply 'current_class'
               'default_class' => 'nav-item', // a CSS class to apply to all menu items
           );
-
           // Load the MarkupMenuBuilder module
           $menu = $modules->get('MarkupMenuBuilder');
           // Render the menu with the specified options
@@ -202,5 +199,14 @@
         </div>
       </div>
     </div>
+
+
+
+  
   </body>
+
+
 </html>
+
+
+

@@ -18,7 +18,7 @@
               <i class="fab fa-twitter"></i>
             </a>
             <a href="https://instagram.com" target="_blank" class="social-instagram">
-            <i class="fab fa-whatsapp"></i>
+             <i class="fab fa-whatsapp"></i>
             </a>
             <a href="https://linkedin.com" target="_blank" class="social-linkedin">
               <i class="fab fa-linkedin-in"></i>
@@ -160,7 +160,7 @@
     dots: false,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 2000, // Set the base autoplay speed to 2 seconds
+    autoplaySpeed: 1000, // Set the base autoplay speed to 2 seconds
     pauseOnHover: false, // Do not pause on hover
     swipe: true,
     swipeToSlide: true,
@@ -256,55 +256,10 @@
 
 
 
-<script>
-  window.addEventListener('load', function () {
-    baguetteBox.run('.gallery');
-  });
-</script>
 
 <script src="<?php echo $config->urls->templates; ?>js/wow.min.js"></script>
 <script>
   new WOW().init();
-</script>
-
-
-
-<script>
-  $('.blog-slider').slick({
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: true,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        // centerMode: true,
-      }
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 2,
-        dots: false,
-        infinite: true,
-
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
-  });
 </script>
 
 <script>
@@ -332,9 +287,7 @@
         $('#navigation').addClass('navbar-scroll');
       }
     });
-
   });
-
 </script>
 
 <script type="text/javascript">
@@ -342,23 +295,20 @@
     // revolution slider
     var revapi;
     revapi = jQuery('#revolution-slider-half')
-      .revolution({
-        delay: 9000,
+    .revolution({
+        delay: 5000, // Set delay to 5 seconds (5000 milliseconds)
         startwidth: 1200,
         startheight: 630,
-        onHoverStop: "on",
+        onHoverStop: "off", // Ensure the slider does not stop on hover
         thumbWidth: 100,
         thumbHeight: 50,
         thumbAmount: 3,
         touchenabled: "on",
         stopAtSlide: -1,
         stopAfterLoops: -1,
-        touchenabled: "on",
         navigationType: "none",
         navigationArrows: "solo",
         navigationStyle: "preview1",
-        touchenabled: "on",
-        onHoverStop: "on",
         swipe_velocity: 0.7,
         swipe_min_touches: 1,
         swipe_max_touches: 1,

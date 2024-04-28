@@ -2,9 +2,11 @@
 
 <?php include("head.inc");
 $page->edit(true);
+$banner_image= $pages->get('/page_banner/');    
+
 ?>
 
-<section class="sub-bnr">
+<section class="sub-bnr"  style=" background-position: center center; background-repeat: no-repeat;background-size: cover; background: url(<?php echo $banner_image->image->url;?>);">
     <div class="position-center-center">
         <div class="container">
             <h4><?php echo $page->title ?> </h4>
