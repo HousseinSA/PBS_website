@@ -1,25 +1,28 @@
 
 
-<?php include("head.inc");?>
+<?php include("head.inc");
+$page->edit(true);
+$banner_image= $pages->get('/page_banner/');    
 
-<section class="sub-bnr">
+?>
+
+<section class="sub-bnr"  style=" background-position: center center; background-repeat: no-repeat;background-size: cover; background: url(<?php echo $banner_image->image->url;?>);">
     <div class="position-center-center">
-      <div class="container">
-        <h4><?php echo $page->title ?></h4>
-        <hr class="main">
-        <!-- Breadcrumb -->
-        <ol class="breadcrumb">
-          <li><a href="<?php echo $pages->get('/')->url ?>"><?php echo $pages->get('/')->title ?></a></li>
-          <li class="active"><?php echo $page->title ?></li>
-        </ol>
-      </div>
+        <div class="container">
+            <h4><?php echo $page->title ?> </h4>
+            <hr class="main">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li><a href="<?php echo $pages->get('/')->url ?>"><?php echo $pages->get('/')->title ?></a></li>
+                <li class="active"><?php echo $page->title ?></li>
+            </ol>
+        </div>
     </div>
     <div class="scroll"> <a href="#content" class="go-down"></a></div>
-  </section>
+</section>
 <section class="contact-section pb-100 pt-100" id="content">
 <div class="container">
 <div class="section-title text-center">
-<span><?php echo $page->title ?></span>
 <h2><?php echo $page->section_title ?></h2>
 <p><?php echo $page->sub_title ?></p>
 </div>
