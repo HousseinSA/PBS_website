@@ -59,7 +59,7 @@
           <h3>Location</h1>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13329.05034840373!2d-15.99251504760766!3d18.086015566381368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe96c7fb569ad5f77%3A0x63737f7d612c1d4f!2sNouakchott%2C%20Mauritania!5e0!3m2!1sen!2s!4v1616067887532!5m2!1sen!2s"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
           </iframe>
         </div>
       </div>
@@ -330,7 +330,12 @@
         fullWidth: "on",
         stopAfterLoops: 0,
         stopAtSlide: 1,
-        shadow: 0
+        shadow: 0,
+        "slothole": false,
+            "shadow": 5,
+            "startwidth": 960,
+            "startheight": 670,
+            "dragAndMove": "off",
       });
 
     revapi = jQuery('#revolution-slider-full')

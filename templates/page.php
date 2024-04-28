@@ -20,12 +20,12 @@ $page->edit(true);
 							<img src="<?php echo $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
 							<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
 							</div>
-							<div class="tp-caption slide-big-heading sft" data-x="30" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
-								<?php echo $hero->section_title; ?>
-							</div>
-							<div class="tp-caption slide-sub-heading sft" data-x="30" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
-								<?php echo $hero->sub_title; ?>
-							</div>
+								<div class="tp-caption slide-big-heading sft" data-x="30" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
+									<?php echo $hero->section_title; ?>
+								</div>
+								<div class="tp-caption slide-sub-heading sft" data-x="30" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
+									<?php echo $hero->sub_title; ?>
+								</div>
 							<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
 							data-start="800" data-easing="easeInOutExpo">
 							<span class="shine"></span><a href="#">More Detail</a>
@@ -42,7 +42,6 @@ $page->edit(true);
 </div>
 
 <!-- hero section ends  -->
-
 
 <!-- about section start  -->
 <section class="about-style-two py-5">
@@ -82,10 +81,7 @@ $page->edit(true);
 </section>
 <!-- about section ends  -->
 
-
 <!-- services section starts  -->
-
-
 <section class="service-style-three  pb-70">
 	<?php $service = $pages->get('/fabrication/'); ?>
 	<div class="container">

@@ -53,8 +53,9 @@ p {
 a:hover{
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-	color: #8A1B2A !important;
-    outline: 0 solid transparent;
+	color: #f74f21 !important;
+    /* outline: 0 solid transparent; */
+    text-decoration: none !important;
 
 } 
 
@@ -222,7 +223,7 @@ a, button {
 	color:white;
     vertical-align: middle;
     content: "";
-    background:#1f343a;
+    background:#575757;
 	border-radius:5px;
 }
 .navbar-toggler-icon   i{
@@ -522,7 +523,7 @@ a, button {
 
 
 .small-menu a:hover {
-    color: #2E0202 !important;
+    color: #f74f21 !important;
 }
 
 .bg-lightest {
@@ -803,8 +804,58 @@ a, button {
     -moz-transition: background 0.3s, color 0.3s;
     transition: background 0.3s, color 0.3s;
 }
+/* essai page styling */
+
+.essai_container{
+    display: flex !important;
+align-items: center !important;
+justify-content: center !important; 
+gap: 1.4rem !important;
+flex-wrap: wrap !important;
+}
+
+.essai_item{
+    display: flex  !important;
+    flex-direction: column !important;
+    gap: .5rem;
+}
+.essai_container img {
+    max-width: 400px !important;
+    max-height: 400px !important;
+}
+
+.essai_comp{
+    display: flex  !important;
+    flex-direction: column !important;
+    gap: 4rem !important;
+    margin: 40px 0px  !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.essai_title {
+    margin: 1rem 0 !important;
+display: flex !important;
+justify-content: center;
+}
+
+.essai_comp img {
+    max-width: 800px !important;
+    max-height: 800px !important;
+    margin-bottom: 20px !important;
+}
+@media (max-width: 960px){
+    .essai_comp img {
+     max-width: 500px !important;
+        max-height: 500px !important;
+    }
+    }
 
 
+.centered-paragraph {
+    width: 50%; /* Set the width of the paragraph to 50% of the container */
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
 /*------about--section----*/
 
 .pb-70 {
@@ -963,7 +1014,7 @@ a, button {
     text-align: center;
     line-height: 30px;
     border-radius: 5px;
-    background: #2a2818;
+    background: #575757;
     font-size: 18px;
     margin-right: 5px;
     -webkit-transition: .5s;
@@ -993,7 +1044,6 @@ a, button {
 .footer-area .footer-bottom {
     border-top: 1px solid #6d6b61;
     padding: 20px 0;
-    margin-top: 70px;
 }
 
 .footer-area .footer-bottom ul {
@@ -1022,7 +1072,7 @@ a, button {
 }
 
 .footer-area .footer-bottom .copyright-text p a {
-    color: #2E0202;
+    color: #f74f21;
     font-weight: 500;
 }
 
@@ -1033,7 +1083,7 @@ a, button {
     text-align: center;
     line-height: 30px;
     border-radius: 5px;
-    background: #2a2818;
+    background: #575757;
     font-size: 15px;
     margin-right: 5px;
 }
@@ -1485,7 +1535,7 @@ hr.main {
 }
 
 .pt-100 {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -1592,7 +1642,7 @@ textarea {
     padding-bottom: 80px;
 }
 .sec-padd-top {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 
