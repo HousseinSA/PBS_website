@@ -849,6 +849,10 @@ justify-content: center;
      max-width: 500px !important;
         max-height: 500px !important;
     }
+    
+    .centered-paragraph {
+        width: 100%; /* Set the width of the paragraph to 50% of the container */
+    }
     }
 
 

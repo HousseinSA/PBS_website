@@ -75,3 +75,4 @@
 2024-04-28 21:01:24	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
 2024-04-28 21:04:34	admin1	http://localhost/processwire-dev/admin/login/?id=1109	Successful login for 'admin1'
 2024-04-28 21:24:47	?	?	User 'admin1' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-04-28 21:37:30	admin1	http://localhost/processwire-dev/admin/login/?id=1109	Successful login for 'admin1'
