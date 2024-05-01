@@ -28,6 +28,7 @@ if(!defined("PROCESSWIRE")) die();
 
 /*** SITE CONFIG *************************************************************************/
 
+$config->moduleInstall('download', true);
 // Let core API vars also be functions? So you can use $page or page(), for example.
 $config->useFunctionsAPI = true;
 

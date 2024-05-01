@@ -1,0 +1,4 @@
+2024-04-29 13:30:40	admin1	http://localhost/processwire-dev/admin/module/?reset=2	Compiled file: /site/modules/markup-sitemap-0.9.1/MarkupSitemapConfig.php
+2024-04-29 13:30:40	admin1	http://localhost/processwire-dev/admin/module/?reset=2	Compiled file: /site/modules/markup-sitemap-0.9.1/MarkupSitemap.module.php
+2024-04-29 13:54:39	admin1	http://localhost/processwire-dev/admin/module/?reset=1	Compiled file: /site/modules/MarkupSitemap/MarkupSitemapConfig.php
+2024-04-29 13:54:40	admin1	http://localhost/processwire-dev/admin/module/?reset=2	Compiled file: /site/modules/MarkupSitemap/MarkupSitemap.module.php

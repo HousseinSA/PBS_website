@@ -53,7 +53,7 @@ p {
 a:hover{
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-	color: #f74f21 !important;
+	color: #8A1B2A !important;
     /* outline: 0 solid transparent; */
     text-decoration: none !important;
 
@@ -137,7 +137,7 @@ a, button {
 }
 
 .info-bar .top-left p {
-    color: #f74f21;
+    color: #8A1B2A;
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -523,7 +523,7 @@ a, button {
 
 
 .small-menu a:hover {
-    color: #f74f21 !important;
+    color: #8A1B2A !important;
 }
 
 .bg-lightest {
@@ -849,7 +849,7 @@ justify-content: center;
      max-width: 500px !important;
         max-height: 500px !important;
     }
-    
+
     .centered-paragraph {
         width: 100%; /* Set the width of the paragraph to 50% of the container */
     }
@@ -875,8 +875,7 @@ justify-content: center;
     align-items: center;
     margin-bottom: .8rem;
 }
-.objectif h4 {
-}
+
 .objectif >div{
     background: #8A1B2A;
    padding: 1.5rem;
@@ -908,9 +907,8 @@ justify-content: center;
    height: 300px !important;
    width: 300px !important;
 }
-
 .text span {
-    color: #f74f21 !important;
+    color: #8A1B2A !important;
     font-weight: 500;
 }
 
@@ -923,7 +921,7 @@ justify-content: center;
     max-width: 500px;
 }
 .section-title h2 {
-    font-size: 35px;
+    font-size: 20px !important;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -1076,7 +1074,7 @@ justify-content: center;
 }
 
 .footer-area .footer-bottom .copyright-text p a {
-    color: #f74f21;
+    color: #8A1B2A;
     font-weight: 500;
 }
 
@@ -1146,7 +1144,7 @@ justify-content: center;
     color: #1f1c0c;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 5px !important;
     display: inline-block;
     line-height: 1;
     position: relative;
@@ -1387,10 +1385,6 @@ justify-content: center;
     color: white;
 }
 
-.service-content        
-.service-style-three .service-card:hover .service-content img{
-  /* filter: invert(1); */
-}
 .service-style-three .service-card:hover .service-content h3{
    color:#fff ;
 }
@@ -1400,9 +1394,7 @@ justify-content: center;
 .service-style-three .service-card:hover .service-content a{
    color:#fff;
 }
-.service-style-three .service-card:hover .service-content a:before{
-   /* background-color:#fff; */
-}
+
 .service-style-three .service-card p {
     margin-bottom: 10px;
     -webkit-transition: .5s;
@@ -1441,7 +1433,7 @@ justify-content: center;
 
 .sub-bnr {
     background-size: cover;
-    min-height:350px;
+    min-height:200px;
 	position:relative;
     text-align: center;
     background-repeat: no-repeat;

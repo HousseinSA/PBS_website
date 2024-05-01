@@ -11,7 +11,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <title>PBS | <?php echo $page->title?></title>
+    <title>PBS </title>
     <!-- favicon -->
     <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
     <!-- Bootstrap CSS -->  
@@ -111,7 +111,7 @@
                     <i class="fas fa-mobile-alt"></i>
                     <?php echo $header->number;?>
                   </li>
-                  <li>
+                  <!-- <li>
                   <select
     class="select"
     onchange="window.location = this.value;"
@@ -143,7 +143,7 @@
     }
     ?>
 </select>
-</li> 
+</li>  -->
                 </ul>
               </div>
             </div>
@@ -199,13 +199,7 @@
         </div>
       </div>
     </div>
-
-
-
-  
   </body>
-
-
 </html>
 
 
