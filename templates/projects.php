@@ -12,9 +12,10 @@ $banner_image = $pages->get('/page_banner/');
             <!-- <edit project> -->
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-5 col-sm-12 d-flex justify-content-center justify-content-md-end mb-3 mb-md-0">
-                    <figure class="about-img">
-                        <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
-                    </figure>
+                        <figure class="about-img">
+                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
+        </figure>
+
                 </div>
                 <div class="w-100 d-block d-md-none"></div> <!-- Force text to be under image on small screens -->
                 <div class="col-md-7 col-sm-12 text-center text-md-left">
@@ -27,14 +28,11 @@ $banner_image = $pages->get('/page_banner/');
                 </div>
             </div>
             <!-- </edit> -->
-
-
-
         <?php endforeach; ?>
         <?php $about = $pages->get('/presentation/'); ?>
 
     </div>
-   
+
 </section>
 
 <?php include('foot.inc'); ?>

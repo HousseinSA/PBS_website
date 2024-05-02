@@ -11,29 +11,20 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <title>PBS </title>
+    <title>PBS |<?php $page->title ?> </title>
+
+
+    <?php $page->seo ?>
     <!-- favicon -->
     <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
-    <!-- Bootstrap CSS -->  
-    <link
-      rel="stylesheet"
-      href="<?php echo $config->urls->templates; ?>css/bootstrap.min.css"
-    />
     <!----css3---->
-    <link
-      rel="stylesheet"
-      href="<?php echo $config->urls->templates; ?>css/custom.css"
-    />
+ <!-- minfiy css fiels into one  -->
+ <link rel="stylesheet" href="<?php echo AllInOneMinify::CSS(array('styles/custom.css','styles/bootstrap.min.css' , 'styles/settings.css', 'styles/animate.min.css',)); ?>">
+
     <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="<?php echo $config->urls->templates; ?>css/settings.css"
-      media="screen"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,12 +38,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://pro.font.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+ 
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet"
@@ -68,11 +54,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
     />
 
-    <link
-      rel="stylesheet"
-      href="<?php echo $config->urls->templates; ?>css/animate.min.css"
-    />
-  </head>
 
   <body>
     <div class="header" id="header">

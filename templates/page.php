@@ -2,7 +2,9 @@
 
 namespace ProcessWire;
 
+
 ?>
+
 <?php include('head.inc'); ?>
 <!-- hero section start  -->
 <div class="slider-section">

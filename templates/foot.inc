@@ -79,24 +79,19 @@
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
   <i class="fas fa-long-arrow-alt-up"></i></a>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="<?=$config->urls->templates; ?>js/jquery-3.3.1.slim.min.js"></script>
-<script src="<?=$config->urls->templates; ?>js/popper.min.js"></script>
-<script src="<?=$config->urls->templates; ?>js/bootstrap.min.js"></script>
 
-<script src="<?=$config->urls->templates; ?>js/jquery-3.3.1.min.js"></script>
-<script src="<?=$config->urls->templates; ?>js/wow.min.js"></script>
-
-
+<script src="<?php echo AllInOneMinify::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/jquery-3.3.1.min.js','scripts/popper.min.js','scripts/bootstrap.min.js', 'scripts/wow.min.js' , 'scripts/rev-slider/jquery.themepunch.revolution.min.js' , 'scripts/rev-slider/jquery.themepunch.tools.min.js')); ?>"></script>
 
 <script type="text/javascript"
-  src="<?=$config->urls->templates; ?>js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+
+  src="<?=$config->urls->templates; ?>scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript"
-  src="<?=$config->urls->templates; ?>js/rev-slider/jquery.themepunch.tools.min.js"></script>
+  src="<?=$config->urls->templates; ?>scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
-<script type="text/javascript" src="<?=$config->urls->templates; ?>js/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="<?=$config->urls->templates; ?>js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="<?=$config->urls->templates; ?>scripts/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="<?=$config->urls->templates; ?>scripts/jquery.waypoints.min.js"></script>
 
 <script>
   $(document).ready(function ($) {
@@ -257,7 +252,7 @@
 
 
 
-<script src="<?=$config->urls->templates; ?>js/wow.min.js"></script>
+<script src="<?=$config->urls->templates; ?>scripts/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>
