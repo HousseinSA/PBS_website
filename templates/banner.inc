@@ -18,6 +18,7 @@
             ><?= $pages->get('/')->title ?></a
           >
         </li>
+        <?php $page->edit('false')?>
         <li class="active"><?= $page->title ?></li>
       </ol>
     </div>

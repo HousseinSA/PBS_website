@@ -1036,7 +1036,7 @@ justify-content: center;
 .footer-area .footer-widget h3::before {
     position: absolute;
     content: '';
-    background: #2E0202;
+    background: #8A1B2A;
     width: 2px;
     height: 100%;
     left: 0;
@@ -1142,9 +1142,9 @@ justify-content: center;
 
 .section-title span {
     color: #1f1c0c;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
-    margin-bottom: 5px !important;
+    margin-bottom: 10px !important;
     display: inline-block;
     line-height: 1;
     position: relative;
@@ -1155,7 +1155,7 @@ justify-content: center;
     content: '';
     width: 3px;
     height: 100%;
-    background: #1f1c0c;
+    background: #8A1B2A;
     top: 0;
     left: -10px;
 }
@@ -1274,7 +1274,7 @@ justify-content: center;
     color: #ffffff;
     position: relative;
     font-size: 20px !important;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .facilities-section .facililties-text .theme-btn {
@@ -1305,10 +1305,12 @@ justify-content: center;
 .facilities-section .facililties-text .section-title span {
     padding-left: 10px;
     color: #ffffff;
+    margin-bottom: 5px;
 }
+
 .facilities-section .facililties-text .section-title span::before {
     left: 0;
-    background: #ffffff;
+    margin-right: 10px;
 }
 .facilities-section .facililties-text .section-title h2, .facilities-section .facililties-text .section-title p {
     color: #ffffff;
@@ -1361,7 +1363,7 @@ justify-content: center;
 
 .section-title {
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 
 .service-style-three .service-card img {
@@ -1606,7 +1608,7 @@ textarea {
 }
 
 .contact-section .contact-area .default-btn {
-    background: #2E0202;
+    background: #f44336;
     color: white;
     padding: 15px 30px;
     border-radius: 30px;
@@ -1623,11 +1625,10 @@ textarea {
     justify-content: center !important;
     align-items: center !important;
     
-    
 }
 .logo-item img {
-    max-width: 140px;
-    max-height: 140px;
+    width: 140px !important;
+    height: 140px !important; 
 }
 
 

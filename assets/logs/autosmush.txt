@@ -1,0 +1,35 @@
+2024-04-30 23:34:21	log file created
+2024-04-30 23:45:57	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1057/logo.-autosmush.png, source 15632 bytes, destination 7839 bytes, reduction 50%
+2024-04-30 23:45:57	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1016/f01_1.-autosmush.jpg, source 58335 bytes, destination 58045 bytes, reduction 0%
+2024-04-30 23:45:58	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1074/dp-01-b.-autosmush.jpg, source 201772 bytes, destination 194562 bytes, reduction 0%
+2024-04-30 23:45:58	Invalid image url /processwire-dev/site/assets/files/1139/coulage.jfif
+2024-04-30 23:45:58	Invalid image url /processwire-dev/site/assets/files/1140/base_nktt.jfif
+2024-04-30 23:45:58	Invalid image url /processwire-dev/site/assets/files/1141/dp-08-c.jfif
+2024-04-30 23:46:02	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1021/dp-11-a.-autosmush.jpg, source 204952 bytes, destination 191285 bytes, reduction 7%
+2024-04-30 23:46:07	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1023/image8-1.-autosmush.jpg, source 287242 bytes, destination 210737 bytes, reduction 27%
+2024-04-30 23:46:12	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1063/image7-1.-autosmush.jpeg, source 319723 bytes, destination 242273 bytes, reduction 24%
+2024-04-30 23:46:19	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1062/image11-1.-autosmush.jpeg, source 561391 bytes, destination 418755 bytes, reduction 25%
+2024-04-30 23:46:25	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1061/image9-1.-autosmush.jpeg, source 397512 bytes, destination 296583 bytes, reduction 25%
+2024-04-30 23:46:30	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1060/image10-1.-autosmush.jpeg, source 344284 bytes, destination 256408 bytes, reduction 26%
+2024-04-30 23:46:47	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1030/image11_le_auto_x2.-autosmush.jpg, source 593265 bytes, destination 447161 bytes, reduction 25%
+2024-04-30 23:46:47	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1046/image27.-autosmush.jpg, source 6363 bytes, destination 6363 bytes, reduction 0%
+2024-04-30 23:46:49	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1047/image28.-autosmush.png, source 47714 bytes, destination 19825 bytes, reduction 58%
+2024-04-30 23:46:49	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1048/image29.-autosmush.jpg, source 9101 bytes, destination 9101 bytes, reduction 0%
+2024-04-30 23:46:51	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1049/image30.-autosmush.png, source 71441 bytes, destination 27432 bytes, reduction 62%
+2024-04-30 23:46:52	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1050/image31.-autosmush.jpg, source 12449 bytes, destination 10961 bytes, reduction 12%
+2024-04-30 23:46:53	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1051/image32.-autosmush.jpeg, source 24210 bytes, destination 7788 bytes, reduction 68%
+2024-04-30 23:46:54	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1052/image33.-autosmush.png, source 53100 bytes, destination 24549 bytes, reduction 54%
+2024-04-30 23:46:55	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1053/image34.-autosmush.png, source 48456 bytes, destination 14398 bytes, reduction 70%
+2024-04-30 23:46:56	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1095/image35.-autosmush.jpg, source 4264 bytes, destination 4264 bytes, reduction 0%
+2024-04-30 23:46:57	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1096/image36.-autosmush.jpg, source 111019 bytes, destination 108349 bytes, reduction 0%
+2024-04-30 23:46:59	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1097/image37.-autosmush.png, source 104980 bytes, destination 30051 bytes, reduction 71%
+2024-04-30 23:47:40	Invalid image url /processwire-dev/site/assets/files/1139/coulage.jfif
+2024-04-30 23:47:40	Invalid image url /processwire-dev/site/assets/files/1140/base_nktt.jfif
+2024-04-30 23:47:40	Invalid image url /processwire-dev/site/assets/files/1141/dp-08-c.jfif
+2024-04-30 23:47:51	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1086/page-banner.-autosmush.jpg, source 79693 bytes, destination 79693 bytes, reduction 0%
+2024-04-30 23:47:56	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1082/hdphoto2.-autosmush.jpg, source 10134 bytes, destination 9629 bytes, reduction 0%
+2024-04-30 23:47:57	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1083/hdphoto1.-autosmush.jpg, source 9996 bytes, destination 9473 bytes, reduction 5%
+2024-04-30 23:47:58	reSmush.it (api): C:/xampp/htdocs/processwire-dev/site/assets/files/1084/image13.-autosmush.jpeg, source 7768 bytes, destination 7288 bytes, reduction 6%
+2024-04-30 23:52:57	Invalid image url /processwire-dev/site/assets/files/1139/coulage.jfif
+2024-04-30 23:52:57	Invalid image url /processwire-dev/site/assets/files/1140/base_nktt.jfif
+2024-04-30 23:52:57	Invalid image url /processwire-dev/site/assets/files/1141/dp-08-c.jfif

@@ -59,20 +59,18 @@ namespace ProcessWire;
 				<div class="about-text">
 					<div class="section-title ">
 						<span>
-							<?= $about->title; ?>
+							<?= $about->section_title; ?>
 						</span>
 						<?php
 						$item_number = 1;
 						?>
 						<?php foreach ($about->objectifs_repeater as $item) :  ?>
-							<edit objectifs_repeater>
 								<div class="objectif">
 									<div>
 										<?= $item_number; ?>
 									</div>
-									<?= $item->object_details ?>
+									<?= $item->object_details; ?>
 								</div>
-							</edit>
 						<?php $item_number++;
 						endforeach ?>
 					</div>
@@ -89,11 +87,8 @@ namespace ProcessWire;
 	<div class="container">
 		<div class="section-title text-center">
 			<span>
-				<?= $fabrication->title; ?>
-			</span>
-			<h2>
 				<?= $fabrication->section_title; ?>
-			</h2>
+			</span>
 		</div>
 		<div class="row">
 			<?php foreach ($fabrication->children() as $service_card) : ?>
@@ -103,7 +98,7 @@ namespace ProcessWire;
 						</div>
 						<div class="service-content">
 							<h3>
-								<?= $service_card->title; ?>
+								<?= $service_card->section_title; ?>
 							</h3>
 						</div>
 					</div>
@@ -115,7 +110,7 @@ namespace ProcessWire;
 </section>
 <!-- services section ends  -->
 
-<!-- facilities section starts  -->
+<!-- polutique qualitue section starts  -->
 <?php $facilities = $pages->get('/facilities/') ?>
 <section class="facilities-section">
 	<div class="container-fluid">
@@ -124,7 +119,7 @@ namespace ProcessWire;
 				<div class="facililties-text pt-100 pb-70">
 					<div class="section-title ">
 						<span>
-							<?= $facilities->title; ?>
+							<?= $facilities->section_title; ?>
 						</span>
 						<h2>
 							<?= $facilities->sub_title; ?>
@@ -158,7 +153,7 @@ namespace ProcessWire;
 	</div>
 </section>
 
-<!--  facilities section ends -->
+<!--  polutique qualitue section ends -->
 
 
 
