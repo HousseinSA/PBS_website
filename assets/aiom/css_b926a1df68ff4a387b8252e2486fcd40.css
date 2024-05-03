@@ -1,4 +1,4 @@
-/** Generated: Thursday, 2nd of May 2024, 12:52:49 AM // Powered by AIOM+ (All In One Minify) created by David Karich **/
+/** Generated: Thursday, 2nd of May 2024, 06:44:26 PM // Powered by AIOM+ (All In One Minify) created by David Karich **/
 body,
 html {
     color: #6f6f6f;
@@ -706,6 +706,10 @@ button {
     overflow: hidden
 }
 
+.fullwidthbanner-container img {
+    z-index: 1
+}
+
 .slider-section {
     position: relative
 }
@@ -1053,7 +1057,7 @@ button {
 }
 
 #scrollUp {
-    background: #000;
+    background: #575757;
     height: 40px;
     width: 40px;
     right: 50px;
@@ -1071,16 +1075,6 @@ button {
     fill: #ffea04;
     transform: rotate(225deg);
     width: 20px
-}
-
-.whatsapp_icon {
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    bottom: 50px;
-    left: 20px;
-    z-index: 100;
-    animation: wiggle .3s infinite alternate
 }
 
 @keyframes wiggle {

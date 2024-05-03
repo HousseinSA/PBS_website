@@ -1,34 +1,39 @@
 <?php
-namespace ProcessWire;
 
+namespace ProcessWire;
 ?>
 
 <?php include('head.inc'); ?>
 <!-- hero section start  -->
 <div class="slider-section">
 	<!-- revolution slider -->
+
 	<section class="no-top no-bottom" aria-label="section-slider">
 		<!-- home -->
 		<div class="fullwidthbanner-container">
 			<div id="revolution-slider-half">
+				<?php $hero_section = $pages->get('/hero-section/') ?>
 				<ul>
-					<?php foreach ($pages->get('/hero-section/')->children() as $hero) : ?>
-						<li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
-							<img src="<?= $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
-							<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
-							</div>
-							<div class="tp-caption slide-big-heading sft" data-x="0" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
-								<?= $hero->section_title; ?>
-							</div>
-							<div class="tp-caption slide-sub-heading sft" data-x="0" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
-								<?= $hero->sub_title; ?>
-							</div>
-							<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
+					<edit 135.image>
+						<?php foreach ($hero_section->hero_repeater as $hero) : ?>
+							<li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
+								<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+								<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
+								</div>
+								<div class="tp-caption slide-big-heading sft" data-x="0" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
+									<?= $hero_section->section_title; ?>
+								</div>
+								<div class="tp-caption slide-sub-heading sft" data-x="0" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
+									<?= $hero_section->sub_title; ?>
+								</div>
+								<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
 							data-start="800" data-easing="easeInOutExpo">
 							<span class="shine"></span><a href="#">More Detail</a>
 						</div> -->
-						</li>
-					<?php endforeach; ?>
+							</li>
+
+						<?php endforeach; ?>
+					</edit>
 				</ul>
 				<div class="tp-bannertimer hide"></div>
 			</div>
@@ -49,7 +54,7 @@ namespace ProcessWire;
 			<!-- Image column -->
 			<div class="col-lg-5">
 				<div class="about-img">
-					<edit image>
+					<edit 1021.image>
 						<img src="<?= $about->image->url; ?>" alt="about image" class="img-fluid rounded">
 					</edit>
 				</div>
@@ -65,12 +70,14 @@ namespace ProcessWire;
 						$item_number = 1;
 						?>
 						<?php foreach ($about->objectifs_repeater as $item) :  ?>
+							<edit 1021.objectifs_repeater>
 								<div class="objectif">
 									<div>
 										<?= $item_number; ?>
 									</div>
 									<?= $item->object_details; ?>
 								</div>
+							</edit>
 						<?php $item_number++;
 						endforeach ?>
 					</div>
@@ -91,11 +98,13 @@ namespace ProcessWire;
 			</span>
 		</div>
 		<div class="row">
-			<?php foreach ($fabrication->children() as $service_card) : ?>
+			<?php foreach ($fabrication->service_repeater as $service_card) : ?>
 				<div class="col-lg-4 col-sm-6">
 					<div class="service-card text-center">
-						<div class="service-img" style="background-position: center center;background-size: cover; background: url(<?= $service_card->image->url; ?>);">
-						</div>
+						<edit 1022.image>
+							<div class="service-img" style="background-position: center center;background-size: cover; background: url(<?= $service_card->image->url; ?>);">
+							</div>
+						</edit>
 						<div class="service-content">
 							<h3>
 								<?= $service_card->section_title; ?>
@@ -166,13 +175,14 @@ namespace ProcessWire;
 					<div class="slick-slider client-slider">
 						<?php foreach ($pages->get('/clients/')->images as $logo) : ?>
 							<div class="item  logo-item  wow slideInLeft" data-wow-delay=".5s">
-								<img src="<?= $logo->icon_image->url; ?>" class="img-fluid" alt="Imageteam">
+								<edit 1044.images.icon_image>
+									<img src="<?= $logo->icon_image->url; ?>" class="img-fluid" alt="Imageteam">
+								</edit>
+
 								<h3><?= $logo->section_title; ?></h3>
 							</div>
 						<?php endforeach; ?>
-
 					</div>
-
 				</div>
 			</div>
 		</div>

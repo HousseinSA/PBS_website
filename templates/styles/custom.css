@@ -743,6 +743,10 @@ a, button {
     overflow: hidden;
 }
 
+.fullwidthbanner-container img {
+    z-index: 1;
+}
+
 .slider-section{
   position:relative;
 }
@@ -1092,8 +1096,7 @@ justify-content: center;
 
 
 #scrollUp {
-    /* background: #f6732e; */
-    background: #000;
+    background: #575757;
     height: 40px;
     width: 40px;
     right: 50px;
@@ -1113,15 +1116,7 @@ justify-content: center;
     width: 20px;
 }
 
-.whatsapp_icon {
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    bottom: 50px;
-    left: 20px;
-    z-index: 100;
-    animation: wiggle .3s infinite alternate;
-}
+
 @keyframes wiggle{
 0% {
     transform: scale(1.2);

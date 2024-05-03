@@ -7,7 +7,7 @@
         <div class="footer-widget">
           <?php $footer = $pages->get('/footer/'); ?>
           <h3>
-            <?=$footer->title; ?>
+            <?=$footer->section_title; ?>
           </h3>
             <?=$footer->section_description; ?>
           <div class="footer-social">
@@ -76,8 +76,10 @@
     </div>
   </div>
 </footer>
+
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
   <i class="fas fa-long-arrow-alt-up"></i></a>
+      
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 <script src="<?php echo AllInOneMinify::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/jquery-3.3.1.min.js','scripts/popper.min.js','scripts/bootstrap.min.js', 'scripts/wow.min.js' , 'scripts/rev-slider/jquery.themepunch.revolution.min.js' , 'scripts/rev-slider/jquery.themepunch.tools.min.js')); ?>"></script>
@@ -105,49 +107,6 @@
   });
 </script>
 
-<script>
-  $('.testimonial-slider').slick({
-    slidesToShow: 3,
-    dots: false,
-    arrows: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
-    prevArrow: '<i class="fas fa-chevron-left prev"></i>',
-    nextArrow: '<i class="fas fa-chevron-right next"></i>',
-    swipe: true,
-    swipeToSlide: true,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        // centerMode: true,
-      }
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: false,
-        infinite: true,
-
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
-
-
-  });
-
-</script>
 
 <script>
   $('.client-slider').slick({
@@ -227,7 +186,6 @@
 
 
   });
-
 </script>
 
 
@@ -242,13 +200,7 @@
     nextArrow: '<i class="fas fa-chevron-right tab-next"></i>',
     dots: false,
   });
-
-
 </script>
-
-
-
-
 
 
 
@@ -259,8 +211,8 @@
 
 <script>
   $(document).ready(function () {
-    $(window).scroll(function () {//scroll--top---indicator---arrow-jquery----//
-      if ($(window).scrollTop() > 600) {//---position---600----px scroll-----//
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 600) {
         $("#scrollUp").fadeIn();
       }
       else {
@@ -286,14 +238,14 @@
 </script>
 
 <script type="text/javascript">
+  
   jQuery(document).ready(function () {
-    // Revolution slider configuration
     var revapi;
     revapi = jQuery('#revolution-slider-half').revolution({
-        delay: 8000, // Set delay to 8 seconds (8000 milliseconds) for automatic sliding
+        delay: 8000, 
         startwidth: 1200,
         startheight: 630,
-        onHoverStop: "off", // Ensure the slider does not stop on hover
+        onHoverStop: "off",
         thumbWidth: 100,
         thumbHeight: 50,
         thumbAmount: 3,
@@ -301,7 +253,7 @@
         stopAtSlide: -1,
         stopAfterLoops: -1,
         navigationType: "none",
-        navigationArrows: "solo", // Keep navigation arrows
+        navigationArrows: "solo", 
         navigationStyle: "preview1",
         swipe_velocity: 0.7,
         swipe_min_touches: 1,
@@ -332,9 +284,6 @@
         dragAndMove: "off",
     });
 
-    // Other code remains unchanged
-
-    // You can repeat similar configurations for other sliders you may have
 });
 
 </script>

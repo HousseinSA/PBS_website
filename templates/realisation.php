@@ -8,12 +8,13 @@ $banner_image = $pages->get('/page_banner/');
         <?php foreach ($page->realisation as $item) : ?>
             <!-- Reset the counter at the beginning of each realisation iteration -->
             <?php $counter = 0; ?>
-            <edit realisation>
             <div class="row align-items-center justify-content-center text-center text-md-left">
                 <div class="col-md-5 col-sm-12 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
+                    <edit 1108.realisation.image>
                     <figure class="about-img">
                         <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
                     </figure>
+                    </edit>
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="about-text">
@@ -40,7 +41,6 @@ $banner_image = $pages->get('/page_banner/');
                     </div>
                 </div>
             </div>
-            </edit>
         <?php endforeach; ?>
 
     </div>

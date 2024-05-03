@@ -33,7 +33,7 @@ class Minify_CSS_UriRewriter {
      * a symlink-ed directory, provide an array of link paths to
      * target paths, where the link paths are within the document root. Because 
      * paths need to be normalized for this to work, use "//" to substitute 
-     * the doc root in the link \ProcessWire\paths(the array keys). E.g.:
+     * the doc root in the link paths (the array keys). E.g.:
      * <code>
      * array('//symlink' => '/real/target/path') // unix
      * array('//static' => 'D:\\staticStorage')  // Windows
