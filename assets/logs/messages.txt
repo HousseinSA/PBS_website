@@ -87,3 +87,4 @@
 2024-05-03 02:28:12	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "seo_maestro" data in 0 row(s) from 0 page(s) using template "about". [page-by-page] (Fields)
 2024-05-03 02:28:33	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "seo_maestro" data in 0 row(s) from 0 page(s) using template "NotFound". [page-by-page] (Fields)
 2024-05-03 02:28:50	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "seo_maestro" data in 0 row(s) from 0 page(s) using template "contact". [page-by-page] (Fields)
+2024-05-03 13:01:22	admin1	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "search_index" data in 0 row(s) from 0 page(s) using template "clients". [page-by-page] (Fields)

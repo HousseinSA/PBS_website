@@ -70,7 +70,7 @@
                 </li>
                 <li>
                   <i class="fas fa-mobile-alt"></i>
-                  <?php echo $header->number; ?>
+                  <?php echo $header->edit('number'); ?>
                 </li>
                 <!-- <li>
                   <select

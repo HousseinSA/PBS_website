@@ -16,7 +16,7 @@ namespace ProcessWire;
 				<ul>
 					<edit 135.image>
 						<?php foreach ($hero_section->hero_repeater as $hero) : ?>
-							<li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
+							<li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
 								<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
 								<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
 								</div>
