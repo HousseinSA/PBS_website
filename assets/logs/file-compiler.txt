@@ -34,3 +34,6 @@
 2024-05-02 17:13:16	admin1	http://localhost/processwire-dev/	Maintenance/Remove directory: /site/assets/cache/FileCompiler/site/modules/Notanotherdotcom-Minify-7e84f3a
 2024-05-03 02:11:08	?	?	Compiled file: /site/modules/AutoSmush/AutoSmush.module
 2024-05-03 02:11:08	?	?	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/AllInOneMinify.module
+2024-05-04 13:24:45	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/UriRewriter.php
+2024-05-04 13:24:46	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Less.php
+2024-05-04 13:24:46	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Cache.php

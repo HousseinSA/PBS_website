@@ -13,7 +13,7 @@ $banner_image = $pages->get('/page_banner/');
                 <div class="col-md-5 col-sm-12 d-flex justify-content-center justify-content-md-end mb-3 mb-md-0">
                     <edit 1042.project.image>
                         <figure class="about-img">
-                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
+                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS | Poteaux Béton du Sahel">
                         </figure>
                     </edit>
                 </div>

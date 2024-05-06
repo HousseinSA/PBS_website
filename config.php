@@ -78,36 +78,6 @@ $config->userAuthSalt = '44856398ef19669f87704d18e3b6aa1bb333b81a';
  * f
  */
 $config->tableSalt = '9d274828d03d2b4266036f705ea34a22ac085bf3'; 
-/**
- * Installer: Database Configuration
- * 
- */
-$config->dbHost = 'localhost';
-$config->dbName = 'processwire_db';
-$config->dbUser = 'hussein';
-$config->dbPass = 'admin123';
-$config->dbPort = '3306';
-
-/**
- * Installer: User Authentication Salt 
- * 
- * This value was randomly generated for your system on 2024/04/21.
- * This should be kept as private as a password and never stored in the database.
- * Must be retained if you migrate your site from one server to another.
- * Do not change this value, or user passwords will no longer work.
- * 
- */
-$config->userAuthSalt = '44856398ef19669f87704d18e3b6aa1bb333b81a'; 
-
-/**
- * Installer: Table Salt (General Purpose) 
- * 
- * Use this rather than userAuthSalt when a hashing salt is needed for non user 
- * authentication purposes. Like with userAuthSalt, you should never change 
- * this value or it may break internal system comparisons that use it. 
- * 
- */
-$config->tableSalt = '9d274828d03d2b4266036f705ea34a22ac085bf3'; 
 
 /**
  * Installer: File Permission Configuration

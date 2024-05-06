@@ -115,7 +115,7 @@
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="index.php"><img src="<?php echo $header->image->url; ?>" class="img-fluid" /></a>
+            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img src="<?php echo $header->image->url; ?>" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>

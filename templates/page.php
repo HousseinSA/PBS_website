@@ -17,7 +17,7 @@ namespace ProcessWire;
 					<edit 135.image>
 						<?php foreach ($hero_section->hero_repeater as $hero) : ?>
 							<li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
-								<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+								<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
 								<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
 								</div>
 								<div class="tp-caption slide-big-heading sft" data-x="0" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
@@ -54,9 +54,7 @@ namespace ProcessWire;
 			<!-- Image column -->
 			<div class="col-lg-5">
 				<div class="about-img">
-					<edit 1021.image>
-						<img src="<?= $about->image->url; ?>" alt="about image" class="img-fluid rounded">
-					</edit>
+						<img src="<?= $about->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" class="img-fluid rounded">
 				</div>
 			</div>
 			<!-- Text column -->
@@ -71,12 +69,12 @@ namespace ProcessWire;
 						?>
 						<?php foreach ($about->objectifs_repeater as $item) :  ?>
 							<edit 1021.objectifs_repeater>
-								<div class="objectif">
-									<div>
-										<?= $item_number; ?>
-									</div>
-									<?= $item->object_details; ?>
+							<div class="objectif">
+								<div>
+									<?= $item_number; ?>
 								</div>
+								<?= $item->object_details; ?>
+							</div>
 							</edit>
 						<?php $item_number++;
 						endforeach ?>
@@ -99,19 +97,20 @@ namespace ProcessWire;
 		</div>
 		<div class="row">
 			<?php foreach ($fabrication->service_repeater as $service_card) : ?>
-				<div class="col-lg-4 col-sm-6">
-					<div class="service-card text-center">
-						<edit 1022.image>
+				<edit 1022.service_repeater.section_title>
+					<div class="col-lg-4 col-sm-6">
+						<div class="service-card text-center">
 							<div class="service-img" style="background-position: center center;background-size: cover; background: url(<?= $service_card->image->url; ?>);">
 							</div>
-						</edit>
-						<div class="service-content">
-							<h3>
-								<?= $service_card->section_title; ?>
-							</h3>
+							<div class="service-content">
+								<h3>
+									<?= $service_card->section_title; ?>
+								</h3>
+							</div>
 						</div>
 					</div>
-				</div>
+				</edit>
+
 			<?php endforeach; ?>
 		</div>
 	</div>
@@ -176,7 +175,7 @@ namespace ProcessWire;
 						<?php foreach ($pages->get('/clients/')->images as $logo) : ?>
 							<div class="item  logo-item  wow slideInLeft" data-wow-delay=".5s">
 								<edit 1044.images.icon_image>
-									<img src="<?= $logo->icon_image->url; ?>" class="img-fluid" alt="Imageteam">
+									<img src="<?= $logo->icon_image->url; ?>" class="img-fluid" alt="PBS |Poteaux Béton du Sahel">
 								</edit>
 
 								<h3><?= $logo->section_title; ?></h3>

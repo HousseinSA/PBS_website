@@ -1,6 +1,7 @@
 <?php include("head.inc");
 $page->edit(true);
 $banner_image = $pages->get('/page_banner/');
+
 ?>
 <?php include('banner.inc') ?>
 

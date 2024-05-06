@@ -10,7 +10,7 @@ $banner_image = $pages->get('/page_banner/');
             <div class="col-md-5 col-sm-12 ">
                 <figure class="about-img">
                     <edit image>
-                    <img src="<?= $page->image->url ?>" class="img-fluid" alt="About PBS ">
+                    <img src="<?= $page->image->url ?>" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
                     </edit>
                 </figure>
             </div>
