@@ -122,6 +122,41 @@ a, button {
 /*============topbar--section==============*/
 
 
+/* hero mobile */
+.mobile_hero {
+    display: none !important;
+
+}
+
+@media only screen and (max-width:540px) {
+    .mobile_hero {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: .4rem;
+        padding: 1rem;
+    }
+    .slide-sub-heading,
+    .slide-big-heading {
+        display: none;
+    }
+    .mobile_hero p {
+        font-size: 16px !important;
+        color: black !important;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .mobile_hero h2{
+        font-size: 30px !important;
+        color: black !important;
+        font-weight: 600;
+    }
+
+}
+
+
 
 .info-bar {
        background-color: #fff;
@@ -818,6 +853,11 @@ gap: 1.4rem !important;
 flex-wrap: wrap !important;
 }
 
+.essai_desc {
+    width: 60%;
+    margin: auto;
+}
+
 .essai_item{
     display: flex  !important;
     flex-direction: column !important;
@@ -849,9 +889,13 @@ justify-content: center;
     margin-bottom: 20px !important;
 }
 @media (max-width: 960px){
+    .essai_desc {
+        width: 90%;
+        margin: auto;
+    }
     .essai_comp img {
-     max-width: 500px !important;
-        max-height: 500px !important;
+     max-width: 400px !important;
+        max-height: 400px !important;
     }
 
     .centered-paragraph {
@@ -1312,7 +1356,18 @@ justify-content: center;
 }
 
 
+/* not found */
 
+.notfound{
+    display: flex  !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column !important;
+    gap: .5rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 2rem 0 !important ; 
+}
 /*---service--section-----*/
 
 .service-style-three .service-card {

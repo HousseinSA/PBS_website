@@ -14,29 +14,37 @@ namespace ProcessWire;
 			<div id="revolution-slider-half">
 				<?php $hero_section = $pages->get('/hero-section/') ?>
 				<ul>
-					<edit 135.image>
-						<?php foreach ($hero_section->hero_repeater as $hero) : ?>
-							<li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
-								<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
-								<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
-								</div>
-								<div class="tp-caption slide-big-heading sft" data-x="0" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
-									<?= $hero_section->section_title; ?>
-								</div>
-								<div class="tp-caption slide-sub-heading sft" data-x="0" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
-									<?= $hero_section->sub_title; ?>
-								</div>
-								<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
+
+					<?php foreach ($hero_section->hero_repeater as $hero) : ?>
+						<li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="1200" data-delay="8000">
+							<img style="z-index: 1;" src="<?= $hero->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center" />
+							<div class="tp-caption slide_mask  sfl tp-resizeme " data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style=" max-width: auto; max-height: auto; white-space: nowrap;">
+							</div>
+							<div class="tp-caption slide-big-heading sft" data-x="0" data-y="220	" data-speed="800" data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
+								<?= $hero_section->section_title; ?>
+							</div>
+							<div class="tp-caption slide-sub-heading sft" data-x="0" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
+								<?= $hero_section->sub_title; ?>
+							</div>
+							<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
 							data-start="800" data-easing="easeInOutExpo">
 							<span class="shine"></span><a href="#">More Detail</a>
 						</div> -->
-							</li>
+						</li>
+					<?php endforeach; ?>
 
-						<?php endforeach; ?>
-					</edit>
 				</ul>
 				<div class="tp-bannertimer hide"></div>
 			</div>
+		</div>
+
+		<div class="mobile_hero">
+			<h2>
+				<?= $hero_section->section_title; ?>
+			</h2>
+			<p>
+				<?= $hero_section->sub_title; ?>
+			</p>
 		</div>
 		<!-- home end -->
 	</section>
@@ -54,7 +62,7 @@ namespace ProcessWire;
 			<!-- Image column -->
 			<div class="col-lg-5">
 				<div class="about-img">
-						<img src="<?= $about->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" class="img-fluid rounded">
+					<img src="<?= $about->image->url; ?>" alt="PBS | Poteaux Béton du Sahel" class="img-fluid rounded">
 				</div>
 			</div>
 			<!-- Text column -->
@@ -69,12 +77,12 @@ namespace ProcessWire;
 						?>
 						<?php foreach ($about->objectifs_repeater as $item) :  ?>
 							<edit 1021.objectifs_repeater>
-							<div class="objectif">
-								<div>
-									<?= $item_number; ?>
+								<div class="objectif">
+									<div>
+										<?= $item_number; ?>
+									</div>
+									<?= $item->object_details; ?>
 								</div>
-								<?= $item->object_details; ?>
-							</div>
 							</edit>
 						<?php $item_number++;
 						endforeach ?>
@@ -138,16 +146,17 @@ namespace ProcessWire;
 						<?php $item_number = 1; ?>
 						<?php foreach ($facilities->points as $item) : ?>
 							<edit points>
-								<div class="objectif">
-									<div>
-										<!-- <?= $item_number; ?> -->
-										<i class="fas fa-check"></i>
+								<li>
+									<div class="objectif">
+										<div>
+											<!-- <?= $item_number; ?> -->
+											<i class="fas fa-check"></i>
+										</div>
+										<!-- <?= $item->section_title ?> -->
+
 									</div>
-									<li>
-										<?= $item->section_title ?>
-									</li>
-								</div>
 							</edit>
+							</li>
 						<?php $item_number++;
 						endforeach; ?>
 					</ul>

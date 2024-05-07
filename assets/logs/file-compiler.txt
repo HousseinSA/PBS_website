@@ -37,3 +37,5 @@
 2024-05-04 13:24:45	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/UriRewriter.php
 2024-05-04 13:24:46	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Less.php
 2024-05-04 13:24:46	admin1	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Cache.php
+2024-05-06 01:16:40	admin	http://localhost/processwire-dev/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/JSMin-v2.1.7.php
+2024-05-06 17:39:18	admin	http://localhost/processwire-dev/admin/module/?reset=2	Compiled file: /site/modules/ProcessWire-Textformatter-AutoSchema-master/TextformatterAutoSchema.module

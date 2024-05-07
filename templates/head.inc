@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <title>PBS | <?php echo $page->title ?> </title>
-  <?php echo $page->seo_maestro;
-  ?>
+  
+  <?php echo $page->seo;?>
+  
   <!-- favicon -->
   <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
   <!----css3---->
@@ -33,8 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-
-
+</head>
 <body>
   <div class="header" id="header">
     <header class="header-area header-style-two">

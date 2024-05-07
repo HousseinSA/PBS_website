@@ -1,130 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <title>PBS </title>
-    <!-- favicon -->
-    <link rel="icon" href="/processwire-dev/site/templates/img/favicon.png" type="image/x-icon">
-    <!-- Bootstrap CSS -->  
-    <link
-      rel="stylesheet"
-      href="/processwire-dev/site/templates/styles/bootstrap.min.css"
-    />
-    <!----css3---->
- <!-- minfiy css fiels into one  -->
- <link rel="stylesheet" href="/processwire-dev/site/assets/aiom/css_660f660aaa700c0b45bd917e9fcb4672.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  
+  <title>PBS | Nos Objectifs</title>
+<meta name="description" content="PBS est une société, spécialisée dans la fabrication et commercialisation des poteaux en béton   armé pour les  lignes électriques aériennes en Moyenne  et basse tension  ainsi que les réseaux de télécommunication">
+<meta name="keywords" content="pbs, PBS , pbs nouakchott , psb mauritania, psb Poteaux, pbs Béton du Sahel">
+<link rel="canonical" href="http://localhost/processwire-dev/presentation/">
+<meta property="og:title" content="PBS | Nos Objectifs">
+<meta property="og:description" content="PBS est une société, spécialisée dans la fabrication et commercialisation des poteaux en béton   armé pour les  lignes électriques aériennes en Moyenne  et basse tension  ainsi que les réseaux de télécommunication">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost/processwire-dev/presentation/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Accueil",
+    "item": "http://localhost/processwire-dev/"
+  },
+  {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Nos Objectifs",
+    "item": "http://localhost/processwire-dev/presentation/"
+  }
+  ]
+}
+</script>
+<meta name="generator" content="ProcessWire">
+<link rel="alternate" href="http://localhost/processwire-dev/presentation/" hreflang="fr">
+<link rel="alternate" href="http://localhost/processwire-dev/presentation/" hreflang="x-default">  
+  <!-- favicon -->
+  <link rel="icon" href="/processwire-dev/site/templates/img/favicon.png" type="image/x-icon">
+  <!----css3---->
+  <!-- minfiy css fiels into one  -->
+  <link rel="stylesheet" href="<br />
+<b>Deprecated</b>:  Optional parameter $value declared before required parameter $rules is implicitly treated as a required parameter in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>5206</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9387</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9395</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9400</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9406</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9416</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9419</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9439</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9444</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9465</b><br />
+<br />
+<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9472</b><br />
+<br />
+<b>Warning</b>:  A non-numeric value encountered in <b>C:\xampp\htdocs\processwire-dev\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\cssmin.php</b> on line <b>769</b><br />
+<br />
+<b>Warning</b>:  A non-numeric value encountered in <b>C:\xampp\htdocs\processwire-dev\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\cssmin.php</b> on line <b>769</b><br />
+/processwire-dev/site/assets/aiom/css_2bea209013965352d81ac0c572139ac3.css">
 
-    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
-    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--fontawesome-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    />
- 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet"
-    />
+  <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
+  <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!--fontawesome-->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-    />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 
-  <body>
-    <div class="header" id="header">
-      <header class="header-area header-style-two">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-4">
-              <div class="header-left">
-                <a href="" target="_blank" class="social-facebook">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" target="_blank" class="social-twitter">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" target="_blank" class="social-twitter">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+</head>
+
+<body>
+  <div class="header" id="header">
+    <header class="header-area header-style-two">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="header-left">
+              <a href="" target="_blank" class="social-facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" target="_blank" class="social-twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" target="_blank" class="social-twitter">
                 <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="" target="_blank" class="social-twitter">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
+              </a>
+              <a href="" target="_blank" class="social-twitter">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
             </div>
-            <div class="col-md-8">
-              <div class="header-right">
-                                <ul>
-                  <li>
-                    <i class="far fa-clock"></i>
-                    Lun-Ven (9h00 - 17h00)                  </li>
-                  <li>
-                    <i class="fas fa-map-marker-alt"></i>
-                    Nouakchott, BMD                  </li>
-                  <li>
-                    <i class="fas fa-mobile-alt"></i>
-                    123123                  </li>
-                  <!-- <li>
+          </div>
+          <div class="col-md-8">
+            <div class="header-right">
+                            <ul>
+                <li>
+                  <i class="far fa-clock"></i>
+                  Lun-Ven (9h00 - 17h00)                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  Nouakchott, BMD                </li>
+                <li>
+                  <i class="fas fa-mobile-alt"></i>
+                  123123                </li>
+                <!-- <li>
                   <select
     class="select"
     onchange="window.location = this.value;"
 >
-    <option value="/processwire-dev/presentation/" selected="selected">Francais</option><option value="/processwire-dev/en/presentation/" >English</option><option value="/processwire-dev/ar/presentation/" >العربية</option></select>
+    <option value="/processwire-dev/presentation/" selected="selected">Francais</option></select>
 </li>  -->
-                </ul>
-              </div>
+              </ul>
             </div>
           </div>
         </div>
-      </header>
-      <div class="navigation" id="navigation">
-        <div class="header-inner" id="header-inner">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg my-navbar p-0">
-              <a class="navbar-brand" href="index.php"
-                ><img src="/processwire-dev/site/assets/files/1057/logo.-autosmush.png" class="img-fluid"
-              /></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               
+      </div>
+    </header>
+    <div class="navigation" id="navigation">
+      <div class="header-inner" id="header-inner">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg my-navbar p-0">
+            <a class="navbar-brand" href="/processwire-dev/"><img src="/processwire-dev/site/assets/files/1057/logo.-autosmush.png" class="img-fluid" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
 <ul class="navbar-nav ml-auto">
 	<li class="nav-item">
 		<a href='/processwire-dev/'>Accueil</a>
@@ -144,18 +167,15 @@
 	<li class="nav-item">
 		<a href='/processwire-dev/contact/'>Contactez-nous</a>
 	</li>
-</ul>              </div>
-            </nav>
-          </div>
+</ul>            </div>
+          </nav>
         </div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</body>
 
-
-
-<section
+</html><section
   class="sub-bnr"
   style="
     background-position: center center;
@@ -188,7 +208,7 @@
             <div class="col-md-5 col-sm-12 ">
                 <figure class="about-img">
                     <edit image>
-                    <img src="/processwire-dev/site/assets/files/1021/dp-11-a.-autosmush.jpg" class="img-fluid" alt="About PBS ">
+                    <img src="/processwire-dev/site/assets/files/1021/dp-11-a.-autosmush.jpg" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
                     </edit>
                 </figure>
             </div>
@@ -287,8 +307,10 @@ Un Laboratoire                                </li>
     </div>
   </div>
 </footer>
+
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
   <i class="fas fa-long-arrow-alt-up"></i></a>
+      
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 <script src="/processwire-dev/site/assets/aiom/js_51b83cb0651739fd32d050f4024dc66c.js"></script>
@@ -316,49 +338,6 @@ Un Laboratoire                                </li>
   });
 </script>
 
-<script>
-  $('.testimonial-slider').slick({
-    slidesToShow: 3,
-    dots: false,
-    arrows: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
-    prevArrow: '<i class="fas fa-chevron-left prev"></i>',
-    nextArrow: '<i class="fas fa-chevron-right next"></i>',
-    swipe: true,
-    swipeToSlide: true,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        // centerMode: true,
-      }
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: false,
-        infinite: true,
-
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
-
-
-  });
-
-</script>
 
 <script>
   $('.client-slider').slick({
@@ -438,7 +417,6 @@ Un Laboratoire                                </li>
 
 
   });
-
 </script>
 
 
@@ -453,13 +431,7 @@ Un Laboratoire                                </li>
     nextArrow: '<i class="fas fa-chevron-right tab-next"></i>',
     dots: false,
   });
-
-
 </script>
-
-
-
-
 
 
 
@@ -470,8 +442,8 @@ Un Laboratoire                                </li>
 
 <script>
   $(document).ready(function () {
-    $(window).scroll(function () {//scroll--top---indicator---arrow-jquery----//
-      if ($(window).scrollTop() > 600) {//---position---600----px scroll-----//
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 600) {
         $("#scrollUp").fadeIn();
       }
       else {
@@ -497,56 +469,26 @@ Un Laboratoire                                </li>
 </script>
 
 <script type="text/javascript">
-  jQuery(document).ready(function () {
-    // Revolution slider configuration
-    var revapi;
-    revapi = jQuery('#revolution-slider-half').revolution({
-        delay: 8000, // Set delay to 8 seconds (8000 milliseconds) for automatic sliding
+jQuery(document).ready(function () {
+    jQuery('#revolution-slider-half').revolution({
+        delay: 5000, // Set delay to 5 seconds (5000 milliseconds)
         startwidth: 1200,
         startheight: 630,
-        onHoverStop: "off", // Ensure the slider does not stop on hover
-        thumbWidth: 100,
-        thumbHeight: 50,
-        thumbAmount: 3,
+        onHoverStop: "off",
         touchenabled: "on",
         stopAtSlide: -1,
         stopAfterLoops: -1,
-        navigationType: "none",
-        navigationArrows: "solo", // Keep navigation arrows
-        navigationStyle: "preview1",
-        swipe_velocity: 0.7,
-        swipe_min_touches: 1,
-        swipe_max_touches: 1,
-        drag_block_vertical: false,
-        keyboardNavigation: "on",
-        navigationHAlign: "center",
-        navigationVAlign: "bottom",
-        navigationHOffset: 0,
-        navigationVOffset: 20,
-        soloArrowLeftHalign: "left",
-        soloArrowLeftValign: "center",
-        soloArrowLeftHOffset: 20,
-        soloArrowLeftVOffset: 0,
-        soloArrowRightHalign: "right",
-        soloArrowRightValign: "center",
-        soloArrowRightHOffset: 20,
-        soloArrowRightVOffset: 0,
-        dottedOverlay: "",
+        navigationType: "arrows", // Enable navigation arrows
+        navigationArrows: "solo", // Show navigation arrows
+        navigationStyle: "preview1", // Choose a navigation style
         fullWidth: "on",
-        stopAfterLoops: 0,
-        stopAtSlide: 1,
+        autoPlay: true,
         shadow: 0,
-        slothole: false,
-        shadow: 5,
-        startwidth: 960,
-        startheight: 670,
-        dragAndMove: "off",
+        // Other properties remain unchanged
     });
-
-    // Other code remains unchanged
-
-    // You can repeat similar configurations for other sliders you may have
 });
+
+
 
 </script>
 

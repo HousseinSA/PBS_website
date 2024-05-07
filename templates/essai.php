@@ -9,7 +9,7 @@ $banner_image = $pages->get('/page_banner/');
     <div class="container">
         <div style="text-align: center;">
             <h3><?= $page->section_title; ?></h3>
-            <div class="centered-paragraph ">
+            <div class="essai_desc ">
                 <?= $page->section_description; ?>
             </div>
         </div>

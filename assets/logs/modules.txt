@@ -145,3 +145,18 @@
 2024-05-04 00:12:23	admin1	http://localhost/processwire-dev/admin/module/download/	Found 1 module(s) missing file: ProcessCacheControl => C:/xampp/htdocs/processwire-dev/site/modules/ProcessCacheControl/ProcessCacheControl.module
 2024-05-04 00:14:54	admin1	http://localhost/processwire-dev/admin/module/?reset=1	Found 1 module(s) missing file: ProcessCacheControl => C:/xampp/htdocs/processwire-dev/site/modules/ProcessCacheControl/ProcessCacheControl.module
 2024-05-04 00:16:24	admin1	http://localhost/processwire-dev/admin/module/?reset=1	Found 1 module(s) missing file: ProcessCacheControl => C:/xampp/htdocs/processwire-dev/site/modules/ProcessCacheControl/ProcessCacheControl.module
+2024-05-06 00:19:15	admin	http://localhost/processwire-dev/admin/module/edit?name=SeoMaestro&collapse_info=1	Uninstalled module 'SeoMaestro'
+2024-05-06 00:19:27	admin	http://localhost/processwire-dev/admin/module/edit?name=InputfieldSeoMaestro	Uninstalled module 'InputfieldSeoMaestro'
+2024-05-06 00:19:50	admin	http://localhost/processwire-dev/admin/module/	Deleted module 'SeoMaestro'
+2024-05-06 00:19:57	admin	http://localhost/processwire-dev/admin/module/	Deleted module 'InputfieldSeoMaestro'
+2024-05-06 00:53:14	admin	http://localhost/processwire-dev/admin/module/edit?name=AllInOneMinify&collapse_info=1	Uninstalled module 'AllInOneMinify'
+2024-05-06 00:53:14	admin	http://localhost/processwire-dev/admin/module/edit?name=AllInOneMinify&collapse_info=1	Found 1 module(s) missing file: FieldtypeSeoMaestro => C:/xampp/htdocs/processwire-dev/site/modules/SeoMaestro/FieldtypeSeoMaestro.module.php
+2024-05-06 00:53:20	admin	http://localhost/processwire-dev/admin/module/	Deleted module 'AllInOneMinify'
+2024-05-06 00:53:25	admin	http://localhost/processwire-dev/admin/module/?reset=1	Found 1 module(s) missing file: FieldtypeSeoMaestro => C:/xampp/htdocs/processwire-dev/site/modules/FieldtypeSeoMaestro/FieldtypeSeoMaestro.module
+2024-05-06 00:56:28	admin	http://localhost/processwire-dev/admin/module/?reset=1	Found 1 module(s) missing file: FieldtypeSeoMaestro => C:/xampp/htdocs/processwire-dev/site/modules/FieldtypeSeoMaestro/FieldtypeSeoMaestro.module
+2024-05-06 00:56:39	admin	http://localhost/processwire-dev/admin/module/	Installed module 'InputfieldSeoMaestro'
+2024-05-06 00:56:48	admin	http://localhost/processwire-dev/admin/module/	Installed module 'SeoMaestro'
+2024-05-06 01:11:24	admin	http://localhost/processwire-dev/admin/module/	Installed module 'AllInOneMinify'
+2024-05-06 17:39:23	admin	http://localhost/processwire-dev/admin/module/	Installed module 'TextformatterAutoSchema'
+2024-05-06 17:48:34	admin	http://localhost/processwire-dev/admin/module/edit?name=TextformatterAutoSchema&collapse_info=1	Uninstalled module 'TextformatterAutoSchema'
+2024-05-06 17:50:32	admin	http://localhost/processwire-dev/admin/module/	Installed module 'TextformatterAutoSchema'
