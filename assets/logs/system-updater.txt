@@ -40,3 +40,4 @@
 2024-04-21 18:12:01	Update #20: Initializing update
 2024-04-21 18:12:01	Update #20: Updated 29 page(s) for correct created_users_id
 2024-04-21 18:12:01	Update #20: Completed!
+2024-05-07 18:43:33	Detected core version change 3.0.238 =&gt; 3.0.229

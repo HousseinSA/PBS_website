@@ -25,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <!--fontawesome-->
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
 
@@ -113,7 +113,7 @@
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img src="<?php echo $header->image->url; ?>" class="img-fluid" /></a>
+            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img  src="<?php echo $header->image->url; ?>" alt="pbs logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>

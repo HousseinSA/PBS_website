@@ -100,3 +100,7 @@
 2024-05-06 19:36:58	admin	http://localhost/processwire-dev/admin/setup/template/removeFields	Deleted field "sub_title" data in 1 row(s) from 1 page(s) using template "hero-section". [page-by-page] (Fields)
 2024-05-06 19:43:08	admin	http://localhost/processwire-dev/admin/setup/field/save?id=135	Deleted field "section_title" data in 6 row(s) from 6 page(s) using template "repeater_hero_repeater". [page-by-page] (Fields)
 2024-05-06 19:43:08	admin	http://localhost/processwire-dev/admin/setup/field/save?id=135	Deleted field "sub_title" data in 6 row(s) from 6 page(s) using template "repeater_hero_repeater". [page-by-page] (Fields)
+2024-05-07 18:46:27	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "Facilities". [page-by-page] (Fields)
+2024-05-07 18:46:27	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "clients". [page-by-page] (Fields)
+2024-05-07 18:46:27	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "fabrication". [page-by-page] (Fields)
+2024-05-07 18:46:47	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "hero-section". [page-by-page] (Fields)
