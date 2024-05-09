@@ -1,5 +1,5 @@
-# Start ProcessWire:pwball (install)
-# Block all access (fallback if root .htaccess missing)
+# Start ProcessWire:pwball (update 17)
+# block all access (optional fallback if root .htaccess missing)
 <IfModule mod_authz_core.c>
   Require all denied
 </IfModule>

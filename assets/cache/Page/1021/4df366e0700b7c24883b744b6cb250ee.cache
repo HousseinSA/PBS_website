@@ -9,11 +9,11 @@
   <title>PBS | Nos Objectifs</title>
 <meta name="description" content="PBS est une société, spécialisée dans la fabrication et commercialisation des poteaux en béton   armé pour les  lignes électriques aériennes en Moyenne  et basse tension  ainsi que les réseaux de télécommunication">
 <meta name="keywords" content="pbs, PBS , pbs nouakchott , psb mauritania, psb Poteaux, pbs Béton du Sahel">
-<link rel="canonical" href="http://localhost/processwire-dev/presentation/">
+<link rel="canonical" href="http://localhost/processwire-master/presentation/">
 <meta property="og:title" content="PBS | Nos Objectifs">
 <meta property="og:description" content="PBS est une société, spécialisée dans la fabrication et commercialisation des poteaux en béton   armé pour les  lignes électriques aériennes en Moyenne  et basse tension  ainsi que les réseaux de télécommunication">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost/processwire-dev/presentation/">
+<meta property="og:url" content="http://localhost/processwire-master/presentation/">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">
 {
@@ -24,53 +24,28 @@
     "@type": "ListItem",
     "position": 1,
     "name": "Accueil",
-    "item": "http://localhost/processwire-dev/"
+    "item": "http://localhost/processwire-master/"
   },
   {
     "@type": "ListItem",
     "position": 2,
     "name": "Nos Objectifs",
-    "item": "http://localhost/processwire-dev/presentation/"
+    "item": "http://localhost/processwire-master/presentation/"
   }
   ]
 }
 </script>
 <meta name="generator" content="ProcessWire">
-<link rel="alternate" href="http://localhost/processwire-dev/presentation/" hreflang="fr">
-<link rel="alternate" href="http://localhost/processwire-dev/presentation/" hreflang="x-default">  
+<link rel="alternate" href="http://localhost/processwire-master/presentation/" hreflang="fr">
+<link rel="alternate" href="http://localhost/processwire-master/presentation/" hreflang="x-default">  
   <!-- favicon -->
-  <link rel="icon" href="/processwire-dev/site/templates/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/processwire-master/site/templates/img/favicon.png" type="image/x-icon">
   <!----css3---->
   <!-- minfiy css fiels into one  -->
-  <link rel="stylesheet" href="<br />
-<b>Deprecated</b>:  Optional parameter $value declared before required parameter $rules is implicitly treated as a required parameter in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>5206</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9387</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9395</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9400</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9406</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9416</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9419</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9439</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9444</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9465</b><br />
-<br />
-<b>Warning</b>:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in <b>C:\xampp\htdocs\processwire-dev\site\assets\cache\FileCompiler\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\Less\Less.php</b> on line <b>9472</b><br />
-<br />
-<b>Warning</b>:  A non-numeric value encountered in <b>C:\xampp\htdocs\processwire-dev\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\cssmin.php</b> on line <b>769</b><br />
-<br />
-<b>Warning</b>:  A non-numeric value encountered in <b>C:\xampp\htdocs\processwire-dev\site\modules\ProcessWire-AIOM-All-In-One-Minify-3.2.1\lib\cssmin.php</b> on line <b>769</b><br />
-/processwire-dev/site/assets/aiom/css_2bea209013965352d81ac0c572139ac3.css">
+  <link rel="stylesheet" href="/processwire-master/site/assets/aiom/css_db0ffd482b1fb49d9d5fae307d99606f.css">
+   
 
-  <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 
   <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
   <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
@@ -78,18 +53,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <!--fontawesome-->
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <!-- font-awesome -->
+ 
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.rel='stylesheet'">
 
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 </head>
-
 <body>
   <div class="header" id="header">
     <header class="header-area header-style-two">
@@ -128,7 +102,7 @@
     class="select"
     onchange="window.location = this.value;"
 >
-    <option value="/processwire-dev/presentation/" selected="selected">Francais</option></select>
+    <option value="/processwire-master/presentation/" selected="selected">Francais</option></select>
 </li>  -->
               </ul>
             </div>
@@ -140,7 +114,7 @@
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="/processwire-dev/"><img src="/processwire-dev/site/assets/files/1057/logo.-autosmush.png" class="img-fluid" /></a>
+            <a class="navbar-brand" href="/processwire-master/"><img  src="/processwire-master/site/assets/files/1057/logo.-autosmush.png" alt="pbs logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>
@@ -150,22 +124,22 @@
               
 <ul class="navbar-nav ml-auto">
 	<li class="nav-item">
-		<a href='/processwire-dev/'>Accueil</a>
+		<a href='/processwire-master/'>Accueil</a>
 	</li>
 	<li class="nav-item active">
-		<a href='/processwire-dev/presentation/'>Présentation</a>
+		<a href='/processwire-master/presentation/'>Présentation</a>
 	</li>
 	<li class="nav-item">
-		<a href='/processwire-dev/produits/'>Nos Produits</a>
+		<a href='/processwire-master/produits/'>Nos Produits</a>
 	</li>
 	<li class="nav-item">
-		<a href='/processwire-dev/realisation/'>Realisation</a>
+		<a href='/processwire-master/realisation/'>Realisation</a>
 	</li>
 	<li class="nav-item">
-		<a href='/processwire-dev/essai/'>Essai</a>
+		<a href='/processwire-master/essai/'>Essai</a>
 	</li>
 	<li class="nav-item">
-		<a href='/processwire-dev/contact/'>Contactez-nous</a>
+		<a href='/processwire-master/contact/'>Contactez-nous</a>
 	</li>
 </ul>            </div>
           </nav>
@@ -181,7 +155,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(/processwire-dev/site/assets/files/1086/page-banner.-autosmush.jpg) no-repeat;
+    background: url(/processwire-master/site/assets/files/1086/page-banner.-autosmush.jpg) no-repeat;
   "
 >
   <div class="position-center-center">
@@ -191,7 +165,7 @@
       <!-- Breadcrumb -->
       <ol class="breadcrumb">
         <li>
-          <a href="/processwire-dev/"
+          <a href="/processwire-master/"
             >Accueil</a
           >
         </li>
@@ -208,14 +182,14 @@
             <div class="col-md-5 col-sm-12 ">
                 <figure class="about-img">
                     <edit image>
-                    <img src="/processwire-dev/site/assets/files/1021/dp-11-a.-autosmush.jpg" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
+                    <img src="/processwire-master/site/assets/files/1021/dp-11-a.-autosmush.jpg" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
                     </edit>
                 </figure>
             </div>
             <div class="col-md-7 col-sm-12">
                 <div class="about-text">
                     <b>
-                        <p>&nbsp;Notre soci&eacute;t&eacute; bas&eacute;e &agrave; Nouakchott&nbsp; constitue&nbsp; aujourd&rsquo;hui l&rsquo;un des acteurs incontournables des march&eacute;s d&rsquo;infrastructure &eacute;lectriques en Mauritanie. Elle s&rsquo;est dot&eacute;e de moyens&nbsp; industriels performants au profit de&nbsp; la productivit&eacute;, la qualit&eacute; et la s&eacute;curit&eacute; du personnel. L&rsquo;usine PBS de Nouakchott, &eacute;tablie sur une superficie de 10700 m&sup2;, dispose de:</p>                        <ul>
+                        <p>Notre société basée à Nouakchott  constitue  aujourd’hui l’un des acteurs incontournables des marchés d’infrastructure électriques en Mauritanie. Elle s’est dotée de moyens  industriels performants au profit de  la productivité, la qualité et la sécurité du personnel. L’usine PBS de Nouakchott, établie sur une superficie de 10700 m², dispose de:</p>                        <ul>
                                                             <edit points >
                                 <li>
                                     Une unité de production de  capacité annuelle moyenne de 15000 extensible à  21000  supports                                </li>
@@ -270,17 +244,17 @@ Un Laboratoire                                </li>
           <ul>
             <li>
               <a href="tel:123123123">
-                <i class="bx bxs-phone"></i>
+              <i class="fa fa-phone"></i>
                 123123123              </a>
             </li>
             <li>
               <a href="mailto:test@test.com">
-                <i class="bx bxs-envelope"></i>
+              <i class="fa fa-envelope"></i>
                 test@test.com              </a>
             </li>
             <li>
               <a href="https://www.google.com/maps/place/Nouakchott" target="_blank">
-                <i class="bx bxs-location-plus"></i>
+              <i class="fa fa-map-marker"></i>
                 Nouakchott, BMD              </a>
             </li>
           </ul>
@@ -290,6 +264,7 @@ Un Laboratoire                                </li>
         <div class="footer-widget">
           <h3>Location</h1>
           <iframe
+          title="pbs location in google maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13329.05034840373!2d-15.99251504760766!3d18.086015566381368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe96c7fb569ad5f77%3A0x63737f7d612c1d4f!2sNouakchott%2C%20Mauritania!5e0!3m2!1sen!2s!4v1616067887532!5m2!1sen!2s"
             width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
           </iframe>
@@ -313,18 +288,18 @@ Un Laboratoire                                </li>
       
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="/processwire-dev/site/assets/aiom/js_51b83cb0651739fd32d050f4024dc66c.js"></script>
+<script src="/processwire-master/site/assets/aiom/js_a184e9ecd96e18433543bab67394aa21.js"></script>
 
 <script type="text/javascript"
 
-  src="/processwire-dev/site/templates/scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
+  src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript"
-  src="/processwire-dev/site/templates/scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
+  src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
-<script type="text/javascript" src="/processwire-dev/site/templates/scripts/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="/processwire-dev/site/templates/scripts/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/processwire-master/site/templates/scripts/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="/processwire-master/site/templates/scripts/jquery.waypoints.min.js"></script>
 
 <script>
   $(document).ready(function ($) {
@@ -435,7 +410,7 @@ Un Laboratoire                                </li>
 
 
 
-<script src="/processwire-dev/site/templates/scripts/wow.min.js"></script>
+<script src="/processwire-master/site/templates/scripts/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>

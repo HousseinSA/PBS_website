@@ -13,8 +13,9 @@
   <!----css3---->
   <!-- minfiy css fiels into one  -->
   <link rel="stylesheet" href="<?php echo AllInOneMinify::CSS(array('styles/custom.css', 'styles/bootstrap.min.css', 'styles/settings.css', 'styles/animate.min.css',)); ?>">
+   
 
-  <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 
   <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
   <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
@@ -22,12 +23,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <!--fontawesome-->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- font-awesome -->
+ 
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.rel='stylesheet'">
 
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 

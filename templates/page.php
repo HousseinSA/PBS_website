@@ -26,10 +26,6 @@ namespace ProcessWire;
 							<div class="tp-caption slide-sub-heading sft" data-x="0" data-y="300" data-speed="1000" data-start="800" data-easing="easeOutExpo" data-endspeed="400">
 								<?= $hero_section->sub_title; ?>
 							</div>
-							<!-- <div class="tp-caption btn-slider sfb" data-x="30" data-y="390" data-speed="400"
-							data-start="800" data-easing="easeInOutExpo">
-							<span class="shine"></span><a href="#">More Detail</a>
-						</div> -->
 						</li>
 					<?php endforeach; ?>
 
@@ -145,21 +141,19 @@ namespace ProcessWire;
 					<ul>
 						<?php $item_number = 1; ?>
 						<?php foreach ($facilities->points as $item) : ?>
-							<edit points>
-								<li>
-									<div class="objectif">
-										<div>
-											<!-- <?= $item_number; ?> -->
-											<i class="fas fa-check"></i>
-										</div>
-										<!-- <?= $item->section_title ?> -->
-
+							<li>
+								<div class="objectif">
+									<div>
+										<!-- <?= $item_number; ?> -->
+										<i class="fas fa-check"></i>
 									</div>
-							</edit>
+									<?= $item->section_title ?>
+								</div>
 							</li>
 						<?php $item_number++;
 						endforeach; ?>
 					</ul>
+
 				</div>
 			</div>
 			<div class="col-lg-6 p-0">
@@ -173,7 +167,6 @@ namespace ProcessWire;
 <!--  polutique qualitue section ends -->
 
 
-
 <!-- clients  section starts  -->
 <section class="client-section bggray py-5">
 	<div class="container">
@@ -184,7 +177,7 @@ namespace ProcessWire;
 						<?php foreach ($pages->get('/clients/')->images as $logo) : ?>
 							<div class="item  logo-item  wow slideInLeft" data-wow-delay=".5s">
 								<edit 1044.images.icon_image>
-									<img src="<?= $logo->icon_image->url; ?>" class="img-fluid" alt="PBS |Poteaux Béton du Sahel">
+									<img src="<?= $logo->icon_image->url; ?>" class="img-fluid client-img" alt="PBS |Poteaux Béton du Sahel">
 								</edit>
 
 								<h3><?= $logo->section_title; ?></h3>

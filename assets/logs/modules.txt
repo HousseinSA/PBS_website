@@ -298,3 +298,93 @@
 2024-05-07 22:20:32	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
 2024-05-07 22:20:34	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
 2024-05-07 22:20:35	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 00:23:26	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:24:58	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:38:45	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:38:48	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:38:49	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:38:52	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:38:52	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:49:31	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:49:37	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:50:21	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 15:50:21	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:21:20	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:21:20	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:04	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:07	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:17	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:17	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:45	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:49	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:49	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:31:56	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:15	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:30	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:37	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:37	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:37	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:38	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:39	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:40	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:44	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:32:44	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:39:27	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:39:29	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:39:29	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:41:40	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:41:41	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:41:42	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:51:08	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:51:09	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:52:13	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 16:52:42	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:47	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:50	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:53	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:54	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:55	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:56	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:57	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:02:58	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:02	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:04	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:04	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:04	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:10	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:20	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:21	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:51	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:03:54	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:04:12	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:07:36	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:07:42	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:07:59	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:00	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:08	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:09	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:09	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:10	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:18	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:23	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:29	?	?	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:08:29	admin	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	Uninstalled module 'AllInOneMinify'
+2024-05-08 17:08:32	admin	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:08:32	admin	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	There appear to be multiple copies of module &quot;FieldtypeSeoMaestro&quot; on the file system.
+2024-05-08 17:08:32	admin	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	There appear to be multiple copies of module &quot;InputfieldSeoMaestro&quot; on the file system.
+2024-05-08 17:08:32	admin	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	There appear to be multiple copies of module &quot;SeoMaestro&quot; on the file system.
+2024-05-08 17:10:36	admin	http://localhost/processwire-master/admin/module/	Deleted module 'AllInOneMinify'
+2024-05-08 17:10:39	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:10:52	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:10:53	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:10:57	admin	http://localhost/processwire-master/admin/module/	Installed module 'Minify'
+2024-05-08 17:10:57	admin	http://localhost/processwire-master/admin/module/	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:17:47	admin	http://localhost/processwire-master/admin/module/edit?name=Minify&collapse_info=1	Uninstalled module 'Minify'
+2024-05-08 17:17:47	admin	http://localhost/processwire-master/admin/module/edit?name=Minify&collapse_info=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:17:54	admin	http://localhost/processwire-master/admin/module/	Deleted module 'Minify'
+2024-05-08 17:17:58	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:19:27	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 17:19:31	admin	http://localhost/processwire-master/admin/module/	Installed module 'AllInOneMinify'
+2024-05-08 17:19:31	admin	http://localhost/processwire-master/admin/module/	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.2.8 => 1.2.7: InputfieldImage, 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-08 22:07:03	admin	http://localhost/processwire-master/admin/module/edit?name=AutoSmush&collapse_info=1	Uninstalled module 'AutoSmush'
+2024-05-08 22:07:04	admin	http://localhost/processwire-master/admin/module/edit?name=AutoSmush&collapse_info=1	Found 2 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.0.1 => 1.0.0: ProcessPageSort

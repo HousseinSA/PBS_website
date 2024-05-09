@@ -133,3 +133,18 @@
 2024-05-07 18:45:01	guest	http://localhost/processwire-dev/admin/login/	Error: Failed login for 'pbsadmin' - Unknown user
 2024-05-07 18:45:12	guest	http://localhost/processwire-dev/admin/login/	Error: Failed login for 'pbsadmin' - Unknown user
 2024-05-07 21:31:07	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 17:08:09	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 17:11:52	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 17:17:17	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 17:20:23	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 17:42:58	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 17:48:02	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 18:28:02	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 18:40:58	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 18:57:24	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: ::1)
+2024-05-08 20:00:47	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin' - Invalid password
+2024-05-08 20:00:54	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin' - Invalid password
+2024-05-08 20:14:36	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 20:15:19	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 22:01:38	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 22:08:32	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
