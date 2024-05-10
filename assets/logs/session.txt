@@ -148,3 +148,42 @@
 2024-05-08 20:15:19	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
 2024-05-08 22:01:38	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
 2024-05-08 22:08:32	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 22:42:37	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-08 22:49:13	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-08 23:52:10	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 02:24:07	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin1' - Invalid password
+2024-05-09 02:24:13	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin' - Invalid password
+2024-05-09 02:24:17	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 02:27:51	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 16:42:01	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 16:50:41	admin	http://localhost/processwire-master/admin/login/?id=1015	Successful login for 'admin'
+2024-05-09 18:06:04	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 18:06:37	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 18:09:08	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 18:58:58	admin	http://localhost/processwire-master/admin/login/?id=1057	Successful login for 'admin'
+2024-05-09 20:40:08	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 21:06:28	admin	http://localhost/processwire-master/admin/login/?id=1021	Successful login for 'admin'
+2024-05-09 21:07:42	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 21:21:11	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 21:41:00	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-09 21:41:21	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 21:45:17	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-09 21:45:55	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 21:45:59	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-09 21:47:08	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin' - Invalid password
+2024-05-09 21:47:12	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 21:47:45	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-09 21:47:53	guest	http://localhost/processwire-master/admin/login/	Error: Failed login for 'admin123' - Unknown user
+2024-05-09 21:48:01	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 21:57:09	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 22:24:47	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 22:26:23	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-09 22:34:49	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 22:40:21	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-09 22:43:03	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-09 22:50:34	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: ::1)
+2024-05-10 00:35:13	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-10 00:35:53	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'
+2024-05-10 00:48:15	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-10 01:19:29	admin	http://localhost/processwire-master/admin/login/	Successful login for 'admin'
+2024-05-10 01:33:18	admin	http://localhost/processwire-master/admin/login/logout/	Logout for 'admin'

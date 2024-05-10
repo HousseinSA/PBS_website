@@ -66,7 +66,7 @@ namespace ProcessWire;
 				<div class="about-text">
 					<div class="section-title ">
 						<span>
-							<?= $about->section_title; ?>
+							<h2><?= $about->section_title; ?></h2>
 						</span>
 						<?php
 						$item_number = 1;
@@ -75,9 +75,9 @@ namespace ProcessWire;
 							<edit 1021.objectifs_repeater>
 								<div class="objectif">
 									<div>
-										<?= $item_number; ?>
+											<i>	<?= $item_number; ?>
 									</div>
-									<?= $item->object_details; ?>
+								<p>	<?= $item->object_details; ?> </p>
 								</div>
 							</edit>
 						<?php $item_number++;
@@ -96,7 +96,7 @@ namespace ProcessWire;
 	<div class="container">
 		<div class="section-title text-center">
 			<span>
-				<?= $fabrication->section_title; ?>
+				<h2><?= $fabrication->section_title; ?></h2>
 			</span>
 		</div>
 		<div class="row">
@@ -131,11 +131,11 @@ namespace ProcessWire;
 				<div class="facililties-text pt-100 pb-70">
 					<div class="section-title ">
 						<span>
-							<?= $facilities->section_title; ?>
+						<h2	>	<?= $facilities->section_title; ?></h2>
 						</span>
-						<h2>
+						<h3>
 							<?= $facilities->sub_title; ?>
-						</h2>
+						</h3>
 						<?= $facilities->section_description; ?>
 					</div>
 					<ul>

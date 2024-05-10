@@ -43,3 +43,11 @@
 2024-05-07 18:43:33	Detected core version change 3.0.238 =&gt; 3.0.229
 2024-05-08 17:42:58	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
 2024-05-08 20:14:36	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 16:41:23	Detected core version change 3.0.238 =&gt; 3.0.229
+2024-05-09 16:42:02	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 16:50:41	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 18:58:58	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 21:06:28	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 21:41:21	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-09 22:43:03	Update #17: Created: /processwire-master/site/assets/cache/.htaccess
+2024-05-10 00:35:13	Update #17: Created: /processwire-master/site/assets/cache/.htaccess

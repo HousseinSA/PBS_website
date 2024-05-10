@@ -12,27 +12,25 @@
   <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
   <!----css3---->
   <!-- minfiy css fiels into one  -->
-  <link rel="stylesheet" href="<?php echo AllInOneMinify::CSS(array('styles/custom.css', 'styles/bootstrap.min.css', 'styles/settings.css', 'styles/animate.min.css',)); ?>">
-   
+
+  <link rel="stylesheet" href="<?= $config->urls->templates; ?>styles/custom.css">
+<link rel="stylesheet" href="<?= $config->urls->templates; ?>styles/bootstrap.min.css">
+<link rel="stylesheet" href="<?= $config->urls->templates; ?>styles/settings.css">
+
 
 
 
   <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
   <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 
   <!-- font-awesome -->
- 
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" media="print" onload="this.media='all'">
 
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 </head>
 <body>
   <div class="header" id="header">

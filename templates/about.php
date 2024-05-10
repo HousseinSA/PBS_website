@@ -1,39 +1,41 @@
 <?php include("head.inc");
-$page->edit(true);
-$banner_image = $pages->get('/page_banner/');
-?>
+$page->edit(true); $banner_image = $pages->get('/page_banner/'); ?>
 <?php include('banner.inc') ?>
 
-<section class="about-us sec-padd-top" id="content">
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-5 col-sm-12 ">
-                <figure class="about-img">
-                    <edit image>
-                    <img src="<?= $page->image->url ?>" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
-                    </edit>
-                </figure>
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <div class="about-text">
-                    <b>
-                        <?= $page->section_description ?>
-                        <ul>
-                            <?php foreach ($page->points as $point) : ?>
-                                <edit points >
-                                <li>
-                                    <?= $point->section_title; ?>
-                                </li>
-                                </edit>
-                            <?php endforeach; ?>
-                        </ul>
-                        <p><?= $page->sub_title ?> </p>
-                    </b>
-                </div>
-            </div>
+<section  class="about-us sec-padd-top" id="content">
+  <div class="container">
+    <div class="about-container"  >
+      <div >
+        <figure class="about-img">
+          <edit image>
+            <img
+              src="<?= $page->objectif_img->url ?>"
+              class="img-fluid"
+              alt=" pbs mauritania "
+            />
+          </edit>
+        </figure>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+            <div class="section-title">
+          <span> <h2><?php echo $page->title; ?> </h2> </span>
+          <b>
+            <?= $page->section_description ?>
+            <ul>
+              <?php foreach ($page->points as $point) : ?>
+              <edit points>
+                <li><?= $point->section_title; ?></li>
+              </edit>
+              <?php endforeach; ?>
+            </ul>
+            <p><?= $page->sub_title ?></p>
+          </b>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-
 
 <?php include("foot.inc"); ?>

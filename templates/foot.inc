@@ -83,20 +83,16 @@
       
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="<?php echo AllInOneMinify::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/jquery-3.3.1.min.js','scripts/popper.min.js','scripts/bootstrap.min.js', 'scripts/wow.min.js' , 'scripts/rev-slider/jquery.themepunch.revolution.min.js' , 'scripts/rev-slider/jquery.themepunch.tools.min.js')); ?>"></script>
+<script src="<?php echo $config->urls->templates; ?>scripts/jquery-3.3.1.slim.min.js"></script>
+<script src="<?php echo $config->urls->templates; ?>scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
 
-<script type="text/javascript"
-
-  src="<?=$config->urls->templates; ?>scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript"
+<script  type="text/javascript"
   src="<?=$config->urls->templates; ?>scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-
-<script type="text/javascript" src="<?=$config->urls->templates; ?>scripts/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="<?=$config->urls->templates; ?>scripts/jquery.waypoints.min.js"></script>
+<script   type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" ></script>
 
 <script>
+
   $(document).ready(function ($) {
     var $element = $('.counter');
     if ($element.length > 0) {
@@ -115,8 +111,8 @@
     dots: false,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 1000, // Set the base autoplay speed to 2 seconds
-    pauseOnHover: false, // Do not pause on hover
+    autoplaySpeed: 1000, 
+    pauseOnHover: false, 
     swipe: true,
     swipeToSlide: true,
     responsive: [{
@@ -124,7 +120,6 @@
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        // centerMode: true,
       }
     }, {
       breakpoint: 800,
@@ -150,8 +145,6 @@
 
 
 
-
-<script src="<?=$config->urls->templates; ?>scripts/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>

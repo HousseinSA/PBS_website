@@ -42,27 +42,25 @@
   <link rel="icon" href="/processwire-master/site/templates/img/favicon.png" type="image/x-icon">
   <!----css3---->
   <!-- minfiy css fiels into one  -->
-  <link rel="stylesheet" href="/processwire-master/site/assets/aiom/css_db0ffd482b1fb49d9d5fae307d99606f.css">
-   
+
+  <link rel="stylesheet" href="/processwire-master/site/templates/styles/custom.css">
+<link rel="stylesheet" href="/processwire-master/site/templates/styles/bootstrap.min.css">
+<link rel="stylesheet" href="/processwire-master/site/templates/styles/settings.css">
+
 
 
 
   <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
   <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 
   <!-- font-awesome -->
- 
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" media="print" onload="this.media='all'">
 
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 </head>
 <body>
   <div class="header" id="header">
@@ -114,7 +112,7 @@
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="/processwire-master/"><img  src="/processwire-master/site/assets/files/1057/logo.-autosmush.png" alt="pbs logo" class="img-fluid" /></a>
+            <a class="navbar-brand" href="/processwire-master/"><img  src="/processwire-master/site/assets/files/1057/logo.png" alt="pbs logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>
@@ -130,7 +128,7 @@
 		<a href='/processwire-master/presentation/'>Présentation</a>
 	</li>
 	<li class="nav-item">
-		<a href='/processwire-master/produits/'>Nos Produits</a>
+		<a href='/processwire-master/produits/'>Produits</a>
 	</li>
 	<li class="nav-item">
 		<a href='/processwire-master/realisation/'>Realisation</a>
@@ -155,7 +153,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(/processwire-master/site/assets/files/1086/page-banner.-autosmush.jpg) no-repeat;
+    background: url(/processwire-master/site/assets/files/1086/page-banner.jpg) no-repeat;
   "
 >
   <div class="position-center-center">
@@ -176,42 +174,45 @@
   <div class="scroll"><a href="#content" class="go-down"></a></div>
 </section>
 
-<section class="about-us sec-padd-top" id="content">
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-5 col-sm-12 ">
-                <figure class="about-img">
-                    <edit image>
-                    <img src="/processwire-master/site/assets/files/1021/dp-11-a.-autosmush.jpg" class="img-fluid" alt="About PBS | Poteaux Béton du Sahel ">
-                    </edit>
-                </figure>
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <div class="about-text">
-                    <b>
-                        <p>Notre société basée à Nouakchott  constitue  aujourd’hui l’un des acteurs incontournables des marchés d’infrastructure électriques en Mauritanie. Elle s’est dotée de moyens  industriels performants au profit de  la productivité, la qualité et la sécurité du personnel. L’usine PBS de Nouakchott, établie sur une superficie de 10700 m², dispose de:</p>                        <ul>
-                                                            <edit points >
-                                <li>
-                                    Une unité de production de  capacité annuelle moyenne de 15000 extensible à  21000  supports                                </li>
-                                </edit>
-                                                            <edit points >
-                                <li>
-                                    Un espace de stockages de plus de 5000 poteaux
-Un Laboratoire                                </li>
-                                </edit>
-                                                            <edit points >
-                                <li>
-                                    Une plateforme d’essais mécaniques de qualification et classification                                </li>
-                                </edit>
-                                                    </ul>
-                        <p>Avec  l’amorce de la seconde phase d’extension de PBS, la production couvre l’essentiel des besoins des acteurs de la distribution électrique. </p>
-                    </b>
-                </div>
-            </div>
+<section  class="about-us sec-padd-top" id="content">
+  <div class="container">
+    <div class="about-container"  >
+      <div >
+        <figure class="about-img">
+          <edit image>
+            <img
+              src="/processwire-master/site/assets/files/1021/base_nktt.jpg"
+              class="img-fluid"
+              alt=" pbs mauritania "
+            />
+          </edit>
+        </figure>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+            <div class="section-title">
+          <span> <h2>Nos Objectifs </h2> </span>
+          <b>
+            <p>Notre soci&eacute;t&eacute; bas&eacute;e &agrave; Nouakchott&nbsp; constitue&nbsp; aujourd&rsquo;hui l&rsquo;un des acteurs incontournables des march&eacute;s d&rsquo;infrastructure &eacute;lectriques en Mauritanie. Elle s&rsquo;est dot&eacute;e de moyens&nbsp; industriels performants au profit de&nbsp; la productivit&eacute;, la qualit&eacute; et la s&eacute;curit&eacute; du personnel. L&rsquo;usine PBS de Nouakchott, &eacute;tablie sur une superficie de 10700 m&sup2;, dispose de:</p>            <ul>
+                            <edit points>
+                <li>Une unité de production de  capacité annuelle moyenne de 15000 extensible à  21000  supports</li>
+              </edit>
+                            <edit points>
+                <li>Un espace de stockages de plus de 5000 poteaux
+Un Laboratoire</li>
+              </edit>
+                            <edit points>
+                <li>Une plateforme d’essais mécaniques de qualification et classification</li>
+              </edit>
+                          </ul>
+            <p>Avec  l’amorce de la seconde phase d’extension de PBS, la production couvre l’essentiel des besoins des acteurs de la distribution électrique.</p>
+          </b>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-
 
 
 <footer class="footer-area pt-100">
@@ -288,20 +289,16 @@ Un Laboratoire                                </li>
       
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="/processwire-master/site/assets/aiom/js_a184e9ecd96e18433543bab67394aa21.js"></script>
+<script src="/processwire-master/site/templates/scripts/jquery-3.3.1.slim.min.js"></script>
+<script src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
 
-<script type="text/javascript"
-
-  src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript"
+<script  type="text/javascript"
   src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-
-<script type="text/javascript" src="/processwire-master/site/templates/scripts/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="/processwire-master/site/templates/scripts/jquery.waypoints.min.js"></script>
+<script   type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" ></script>
 
 <script>
+
   $(document).ready(function ($) {
     var $element = $('.counter');
     if ($element.length > 0) {
@@ -320,8 +317,8 @@ Un Laboratoire                                </li>
     dots: false,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 1000, // Set the base autoplay speed to 2 seconds
-    pauseOnHover: false, // Do not pause on hover
+    autoplaySpeed: 1000, 
+    pauseOnHover: false, 
     swipe: true,
     swipeToSlide: true,
     responsive: [{
@@ -329,7 +326,6 @@ Un Laboratoire                                </li>
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        // centerMode: true,
       }
     }, {
       breakpoint: 800,
@@ -353,64 +349,8 @@ Un Laboratoire                                </li>
   });
 </script>
 
-<script>
-  $('.project-slider').slick({
-    slidesToShow: 4,
-    dots: false,
-    arrows: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
-    swipe: true,
-    swipeToSlide: true,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        // centerMode: true,
-      }
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: false,
-        infinite: true,
-
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
 
 
-  });
-</script>
-
-
-<script>
-  $('.ticker-slider').slick({
-    speed: 500,
-    arrows: false,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow: '<i class="fas fa-chevron-left tab-prev"></i>',
-    nextArrow: '<i class="fas fa-chevron-right tab-next"></i>',
-    dots: false,
-  });
-</script>
-
-
-
-<script src="/processwire-master/site/templates/scripts/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>
