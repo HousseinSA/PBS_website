@@ -19,7 +19,7 @@ $page->edit(true); $banner_image = $pages->get('/page_banner/'); ?>
       <div class="about-content">
         <div class="about-text">
             <div class="section-title">
-          <span> <h2><?php echo $page->title; ?> </h2> </span>
+          <span> <h2><?php echo $page->objectif_title; ?> </h2> </span>
           <b>
             <?= $page->section_description ?>
             <ul>
