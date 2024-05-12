@@ -1,0 +1,1 @@
+2024-05-10 22:30:03	guest	http://localhost/processwire-master/	SQLSTATE[HY000]: General error: 2006 MySQL server has gone away

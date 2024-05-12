@@ -7,7 +7,7 @@ $page->edit(true); $banner_image = $pages->get('/page_banner/'); ?>
     <div class="about-container"  >
       <div >
         <figure class="about-img">
-          <edit image>
+          <edit 1021.objectif_img >
             <img
               src="<?= $page->objectif_img->url ?>"
               class="img-fluid"

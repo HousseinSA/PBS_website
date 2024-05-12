@@ -40,33 +40,23 @@
 <link rel="alternate" href="http://localhost/processwire-master/presentation/" hreflang="x-default">  
   <!-- favicon -->
   <link rel="icon" href="/processwire-master/site/templates/img/favicon.png" type="image/x-icon">
-  <!----css3---->
-  <!-- minfiy css fiels into one  -->
+  <!-- minfiy css files into one  -->
 
   <link rel="stylesheet" href="/processwire-master/site/templates/styles/custom.css">
 <link rel="stylesheet" href="/processwire-master/site/templates/styles/bootstrap.min.css">
-<link rel="stylesheet" href="/processwire-master/site/templates/styles/settings.css">
 
-
-
-
-  <!-- <link rel="stylesheet" href="font/flaticon.css" /> -->
-  <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
- <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
 
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="print" onload="this.media='all'">
 
 </head>
 <body>
   <div class="header" id="header">
     <header class="header-area header-style-two">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center ">
           <div class="col-md-4">
             <div class="header-left">
               <a href="" target="_blank" class="social-facebook">
@@ -83,7 +73,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="header-right">
                             <ul>
                 <li>
@@ -91,10 +81,11 @@
                   Lun-Ven (9h00 - 17h00)                </li>
                 <li>
                   <i class="fas fa-map-marker-alt"></i>
-                  Nouakchott, BMD                </li>
+                  PK 17 Route de Rosso Nouakchott - MR                </li>
                 <li>
-                  <i class="fas fa-mobile-alt"></i>
-                  123123                </li>
+                <i class="fa fa-phone"></i>
+     
+                  45299088                </li>
                 <!-- <li>
                   <select
     class="select"
@@ -113,11 +104,12 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
             <a class="navbar-brand" href="/processwire-master/"><img  src="/processwire-master/site/assets/files/1057/logo.png" alt="pbs logo" class="img-fluid" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
+            <button id="menuToggleButton" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               
 <ul class="navbar-nav ml-auto">
@@ -145,6 +137,27 @@
       </div>
     </div>
   </div>
+
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the button and the menu elements
+    const menuToggleButton = document.getElementById('menuToggleButton');
+    const menu = document.getElementById('navbarSupportedContent');
+
+    // Add click event listener to the button
+    menuToggleButton.addEventListener('click', function() {
+        // Toggle the visibility of the menu
+        if (menu.classList.contains('collapse')) {
+            menu.classList.toggle('show'); // Toggle the 'show' class to control visibility
+            // Update the 'aria-expanded' attribute
+            const isExpanded = menu.classList.contains('show');
+            menuToggleButton.setAttribute('aria-expanded', isExpanded);
+        }
+    });
+});
+</script>
+
 </body>
 
 </html><section
@@ -179,7 +192,7 @@
     <div class="about-container"  >
       <div >
         <figure class="about-img">
-          <edit image>
+          <edit 1021.objectif_img >
             <img
               src="/processwire-master/site/assets/files/1021/base_nktt.jpg"
               class="img-fluid"
@@ -191,7 +204,7 @@
       <div class="about-content">
         <div class="about-text">
             <div class="section-title">
-          <span> <h2>Nos Objectifs </h2> </span>
+          <span> <h2>Présentation </h2> </span>
           <b>
             <p>Notre soci&eacute;t&eacute; bas&eacute;e &agrave; Nouakchott&nbsp; constitue&nbsp; aujourd&rsquo;hui l&rsquo;un des acteurs incontournables des march&eacute;s d&rsquo;infrastructure &eacute;lectriques en Mauritanie. Elle s&rsquo;est dot&eacute;e de moyens&nbsp; industriels performants au profit de&nbsp; la productivit&eacute;, la qualit&eacute; et la s&eacute;curit&eacute; du personnel. L&rsquo;usine PBS de Nouakchott, &eacute;tablie sur une superficie de 10700 m&sup2;, dispose de:</p>            <ul>
                             <edit points>
@@ -221,8 +234,8 @@ Un Laboratoire</li>
       <div class="col-lg-3 col-sm-6">
         <div class="footer-widget">
                     <h3>
-            PBS – Poteaux Béton du Sahel,          </h3>
-            <p>est une soci&eacute;t&eacute;, sp&eacute;cialis&eacute;e dans la fabrication<br>et commercialisation des poteaux en b&eacute;ton arm&eacute; pour les &nbsp;lignes &eacute;lectriques&nbsp;</p>          <div class="footer-social">
+            PBS – Poteaux Béton du Sahel          </h3>
+            <p>PBS est une société, spécialisée dans la fabrication<br />et commercialisation des poteaux en béton armé pour les  lignes électriques </p>          <div class="footer-social">
             <a href="https://facebook.com" target="_blank" class="social-facebook">
               <i class="fab fa-facebook-f"></i>
             </a>
@@ -241,34 +254,30 @@ Un Laboratoire</li>
       <div class="col-lg-3 col-sm-6">
                 <div class="footer-widget">
           <h3>
-            Contacts          </h3>
+            Contactez-nous          </h3>
           <ul>
             <li>
-              <a href="tel:123123123">
+              <a href="tel:45299088">
               <i class="fa fa-phone"></i>
-                123123123              </a>
+                45299088              </a>
             </li>
             <li>
-              <a href="mailto:test@test.com">
+              <a href="mailto:beton.sahel.pbs@gmail.com">
               <i class="fa fa-envelope"></i>
-                test@test.com              </a>
+                beton.sahel.pbs@gmail.com              </a>
             </li>
             <li>
-              <a href="https://www.google.com/maps/place/Nouakchott" target="_blank">
+              <a href="https://maps.app.goo.gl/xwjwjhJpqUJ6AQRX8" target="_blank">
               <i class="fa fa-map-marker"></i>
-                Nouakchott, BMD              </a>
+                PK 17 Route de Rosso Nouakchott - MR              </a>
             </li>
           </ul>
         </div>
       </div>
       <div class="col-lg-6 col-sm-12">
         <div class="footer-widget">
-          <h3>Location</h1>
-          <iframe
-          title="pbs location in google maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13329.05034840373!2d-15.99251504760766!3d18.086015566381368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe96c7fb569ad5f77%3A0x63737f7d612c1d4f!2sNouakchott%2C%20Mauritania!5e0!3m2!1sen!2s!4v1616067887532!5m2!1sen!2s"
-            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
-          </iframe>
+          <h3>Localisation</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3795.690852071989!2d-15.980006224822128!3d17.94656748303919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU2JzQ3LjYiTiAxNcKwNTgnMzguOCJX!5e0!3m2!1sen!2s!4v1715368894833!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -290,12 +299,12 @@ Un Laboratoire</li>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 <script src="/processwire-master/site/templates/scripts/jquery-3.3.1.slim.min.js"></script>
-<script src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.revolution.min.js"></script>
 
-<script  type="text/javascript"
-  src="/processwire-master/site/templates/scripts/rev-slider/jquery.themepunch.tools.min.js"></script>
+<script src="/processwire-master/site/templates/scripts/bootstrap.min.js"></script>
 
-<script   type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" ></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+
 
 <script>
 
@@ -310,12 +319,34 @@ Un Laboratoire</li>
   });
 </script>
 
+<!-- hero-slider -->
+
+<script>
+$(document).ready(function() {
+    $('.slider-container').slick({
+        autoplay: true,
+        autoplaySpeed: 4000, // Slides every 4 seconds
+        speed: 1000, // Transition speed
+        arrows: false, // Remove arrows
+        dots: false, // Remove dots
+        fade: false, // Use slide animation
+        cssEase: 'linear',
+        pauseOnHover: false, // Continue sliding on hover
+        pauseOnFocus: false, // Continue sliding on focus
+       
+    });
+});
+</script>
+
+
+
+
 
 <script>
   $('.client-slider').slick({
     slidesToShow: 6,
     dots: false,
-    arrows: true,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 1000, 
     pauseOnHover: false, 

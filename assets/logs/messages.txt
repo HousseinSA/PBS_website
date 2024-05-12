@@ -105,3 +105,8 @@
 2024-05-07 18:46:27	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "fabrication". [page-by-page] (Fields)
 2024-05-07 18:46:47	admin	http://localhost/processwire-dev/admin/setup/field/send-templates-save?id=138	Deleted field "seo" data in 0 row(s) from 0 page(s) using template "hero-section". [page-by-page] (Fields)
 2024-05-08 22:14:07	admin	http://localhost/processwire-master/admin/page/edit/?id=1021	Removed 'image' temp file(s) for page /presentation/ - dp-11-a-1.jpg (Pageimages)
+2024-05-10 17:02:43	admin	http://localhost/processwire-master/admin/profile/	Profile saved - admin_theme (WireLog)
+2024-05-10 20:03:15	admin	http://localhost/processwire-master/admin/setup/template/removeFields	Deleted field "work_time" data in 1 row(s) from 1 page(s) using template "header". [page-by-page] (Fields)
+2024-05-10 20:03:15	admin	http://localhost/processwire-master/admin/setup/template/removeFields	Deleted field "number" data in 1 row(s) from 1 page(s) using template "header". [page-by-page] (Fields)
+2024-05-10 20:03:15	admin	http://localhost/processwire-master/admin/setup/template/removeFields	Deleted field "location" data in 1 row(s) from 1 page(s) using template "header". [page-by-page] (Fields)
+2024-05-11 00:35:48	hussein	http://localhost/processwire-master/admin/profile/	Profile saved - admin_theme (WireLog)

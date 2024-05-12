@@ -105,3 +105,10 @@
 2024-05-09 22:42:27	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/UriRewriter.php
 2024-05-09 22:42:27	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Less.php
 2024-05-09 22:42:27	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Cache.php
+2024-05-10 16:33:23	admin	http://localhost/processwire-master/admin/module/?reset=1	Compiled file: /site/modules/ProcessWire-Textformatter-AutoSchema-master/TextformatterAutoSchema.module
+2024-05-10 17:02:38	admin	http://localhost/processwire-master/admin/profile/	Compiled file: /site/modules/ProcessWire-Textformatter-AutoSchema-master/TextformatterAutoSchema.module
+2024-05-11 01:47:26	hussein	http://localhost/processwire-master/admin/module/?reset=2	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/AllInOneMinify.module
+2024-05-11 01:50:20	hussein	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/JSMin-v2.1.7.php
+2024-05-11 02:15:03	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/UriRewriter.php
+2024-05-11 02:15:04	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Less.php
+2024-05-11 02:15:04	guest	http://localhost/processwire-master/	Compiled file: /site/modules/ProcessWire-AIOM-All-In-One-Minify-3.2.1/lib/Less/Cache.php

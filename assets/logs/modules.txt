@@ -1354,3 +1354,6 @@
 2024-05-09 22:39:34	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 1 module(s) missing file: AutoSmush => C:/xampp/htdocs/processwire-master/site/modules/AutoSmush/AutoSmush.module
 2024-05-09 22:39:34	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 3 module version changes (applied when each module is loaded): 1.0.8 => 1.0.7: InputfieldDatetime, 1.0.9 => 1.0.8: InputfieldPage, 1.0.1 => 1.0.0: ProcessPageSort
 2024-05-09 22:43:16	admin	http://localhost/processwire-master/admin/module/	Deleted module 'AllInOneMinify'
+2024-05-10 16:33:26	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 1 module(s) missing file: AutoSmush => C:/xampp/htdocs/processwire-master/site/modules/AutoSmush/AutoSmush.module
+2024-05-10 16:33:26	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 1 module version changes (applied when each module is loaded): 1.0.1 => 1.0.0: ProcessPageSort
+2024-05-11 01:47:36	hussein	http://localhost/processwire-master/admin/module/	Installed module 'AllInOneMinify'
