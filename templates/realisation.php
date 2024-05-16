@@ -8,21 +8,16 @@ $banner_image = $pages->get('/page_banner/');
         <?php foreach ($page->realisation as $item) : ?>
             <!-- Reset the counter at the beginning of each realisation iteration -->
             <?php $counter = 0; ?>
+            <edit realisation>
             <div class="row align-items-center justify-content-center text-center text-md-left">
-                <div class="col-md-5 col-sm-12 mb-3 mb-md-0 p-4 d-flex justify-content-center justify-content-md-end">
-                    <edit 1108.realisation.image>
-                        <figure class="about-img">
-                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="pbs realisation pbs mr pbs sahel">
-                        </figure>
-                    </edit>
+                <div class="col-md-5 col-sm-12 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
+                    <figure class="about-img">
+                        <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
+                    </figure>
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="about-text">
-                        <edit 1108.realisation.section_title>
-
-                            <h2><span class="thm-color"> <a href="<?php echo $pages->get('/')->url ?>"> <?= $item->section_title; ?> </a></span></h2>
-
-                        </edit>
+                        <h2><span class="thm-color"><?= $item->section_title; ?></span></h2>
                         <div class="text">
                             <?php foreach ($item->points as $point) : ?>
                                 <?php $counter++; ?>
@@ -37,15 +32,15 @@ $banner_image = $pages->get('/page_banner/');
                                         }
                                         ?>
                                     </span>
-                                    <edit 1108.points.section_title>
-                                        <?= $point->section_title; ?>
-                                    </edit>
+                                    <!-- Display the section title -->
+                                    <?= $point->section_title; ?>
                                 </div>
                             <?php endforeach; ?>
                         </div>
                     </div>
                 </div>
             </div>
+            </edit>
         <?php endforeach; ?>
 
     </div>
