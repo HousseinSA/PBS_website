@@ -6,10 +6,15 @@
       <div class="col-lg-3 col-sm-6">
         <div class="footer-widget">
           <?php $footer = $pages->get('/footer/'); ?>
+          <edit 1054.section_title>
           <h3>
             <?=$footer->section_title; ?>
           </h3>
+          </edit>
+          <edit 1054.section_description>
+
             <?=$footer->section_description; ?>
+            </edit>
           <div class="footer-social">
             <a href="https://facebook.com" target="_blank" class="social-facebook">
               <i class="fab fa-facebook-f"></i>
@@ -29,9 +34,11 @@
       <div class="col-lg-3 col-sm-6">
         <?php $footer_contact = $pages->get('/contact/'); ?>
         <div class="footer-widget">
+          <edit 1067.title>
           <h3>
             <?=$footer_contact->title; ?>
           </h3>
+        </edit>
           <ul>
             <li>
               <a href="tel:<?=$footer_contact->number; ?>">
@@ -57,7 +64,7 @@
       <div class="col-lg-6 col-sm-12">
         <div class="footer-widget">
           <h3>Localisation</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3795.690852071989!2d-15.980006224822128!3d17.94656748303919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU2JzQ3LjYiTiAxNcKwNTgnMzguOCJX!5e0!3m2!1sen!2s!4v1715368894833!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="pbs location" id="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3795.690852071989!2d-15.980006224822128!3d17.94656748303919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU2JzQ3LjYiTiAxNcKwNTgnMzguOCJX!5e0!3m2!1sen!2s!4v1715368894833!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -80,11 +87,14 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 
-<script src="<?php echo AIOM::JS(array('scripts/jquery-3.3.1.slim.min.js', 'scripts/bootstrap.min.js')); ?>"></script>
 
 
+
+
+<script src="<?php echo AIOM::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/bootstrap.min.js')); ?>"></script>
+
+            
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
-
 
 <script>
 
@@ -163,25 +173,6 @@ $(document).ready(function() {
 
 
 <script>
-  new WOW().init();
-</script>
-
-<script>
-  $(document).ready(function () {
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 600) {
-        $("#scrollUp").fadeIn();
-      }
-      else {
-        $("#scrollUp").css("display", "none");
-      }
-    });
-  });
-
-</script>
-
-
-<script>
   $(document).ready(function () {
     $(window).scroll(function () {
       if ($(window).scrollTop() < 90) { //-navbar-----scrolltop---fixed---jquery--/
@@ -192,30 +183,6 @@ $(document).ready(function() {
       }
     });
   });
-</script>
-
-<script type="text/javascript">
-jQuery(document).ready(function () {
-    jQuery('#revolution-slider-half').revolution({
-        delay: 5000, // Set delay to 5 seconds (5000 milliseconds)
-        startwidth: 1200,
-        startheight: 630,
-        onHoverStop: "off",
-        touchenabled: "on",
-        stopAtSlide: -1,
-        stopAfterLoops: -1,
-        navigationType: "arrows", // Enable navigation arrows
-        navigationArrows: "solo", // Show navigation arrows
-        navigationStyle: "preview1", // Choose a navigation style
-        fullWidth: "on",
-        autoPlay: true,
-        shadow: 0,
-        // Other properties remain unchanged
-    });
-});
-
-
-
 </script>
 
 

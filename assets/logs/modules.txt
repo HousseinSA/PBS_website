@@ -1357,3 +1357,21 @@
 2024-05-10 16:33:26	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 1 module(s) missing file: AutoSmush => C:/xampp/htdocs/processwire-master/site/modules/AutoSmush/AutoSmush.module
 2024-05-10 16:33:26	admin	http://localhost/processwire-master/admin/module/?reset=1	Found 1 module version changes (applied when each module is loaded): 1.0.1 => 1.0.0: ProcessPageSort
 2024-05-11 01:47:36	hussein	http://localhost/processwire-master/admin/module/	Installed module 'AllInOneMinify'
+2024-05-11 13:05:47	hussein	http://localhost/processwire-master/admin/module/edit?name=AllInOneMinify&collapse_info=1	Uninstalled module 'AllInOneMinify'
+2024-05-11 18:10:52	hussein	http://localhost/processwire-master/admin/module/	Installed module 'AllInOneMinify'
+2024-05-12 12:33:51	hussein	http://localhost/processwire-master/admin/module/	Installed module 'FieldtypeCache'
+2024-05-12 13:46:03	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'FrontendForms'
+2024-05-12 13:47:07	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'FrontendForms'
+2024-05-12 13:57:54	hussein	http://localhost/processwire-master/admin/module/	Installed module 'FrontendForms'
+2024-05-12 14:21:07	hussein	http://localhost/processwire-master/admin/module/edit?name=FrontendForms	Uninstalled module 'FrontendForms'
+2024-05-12 14:21:15	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'FrontendForms'
+2024-05-12 21:14:26	hussein	http://localhost/processwire-master/admin/module/edit?name=SeoMaestro&collapse_info=1	Uninstalled module 'SeoMaestro'
+2024-05-12 21:14:52	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'SeoMaestro'
+2024-05-12 21:15:26	hussein	http://localhost/processwire-master/admin/module/?reset=1	Found 2 module(s) missing file: FieldtypeSeoMaestro => C:/xampp/htdocs/processwire-master/site/modules/FieldtypeSeoMaestro/FieldtypeSeoMaestro.module, InputfieldSeoMaestro => C:/xampp/htdocs/processwire-master/site/modules/InputfieldSeoMaestro/InputfieldSeoMaestro.module
+2024-05-12 21:15:31	hussein	http://localhost/processwire-master/admin/module/	Installed module 'SeoMaestro'
+2024-05-15 18:53:43	hussein	http://localhost/processwire-master/admin/module/edit?name=FieldtypeSeoMaestro	Uninstalled module 'InputfieldSeoMaestro'
+2024-05-15 18:53:44	hussein	http://localhost/processwire-master/admin/module/edit?name=FieldtypeSeoMaestro	Uninstalled module 'FieldtypeSeoMaestro'
+2024-05-15 18:53:50	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'FieldtypeSeoMaestro'
+2024-05-15 18:53:56	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'InputfieldSeoMaestro'
+2024-05-15 18:54:28	hussein	http://localhost/processwire-master/admin/module/	Installed module 'InputfieldSeoMaestro'
+2024-05-15 18:54:28	hussein	http://localhost/processwire-master/admin/module/	Installed module 'FieldtypeSeoMaestro'

@@ -60,7 +60,7 @@ $banner_image = $pages->get('/page_banner/');
             <div class="col-lg-9">
     <div class="contact-area">
         <h3>Discutons</h3>
-        <form id="contactForm" novalidate="true">
+        <form id="contactForm" action="https://formspree.io/f/xjvnzwaz" method="POST" novalidate="true">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">

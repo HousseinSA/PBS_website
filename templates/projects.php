@@ -13,16 +13,22 @@ $banner_image = $pages->get('/page_banner/');
                 <div class="col-md-5 col-sm-12 d-flex justify-content-center justify-content-md-end mb-3 mb-md-0">
                     <edit 1042.project.image>
                         <figure class="about-img">
-                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS | Poteaux Béton du Sahel">
+                            <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt=" pbs project pbs mr pbs sahel">
                         </figure>
                     </edit>
                 </div>
                 <div class="w-100 d-block d-md-none"></div>
                 <div class="col-md-7 col-sm-12 text-center text-md-left">
                     <div class="about-text">
-                        <h2><span class="thm-color"><?= $item->section_title; ?></span></h2>
+                        <edit 1042.project.section_title>
+                            <h1><span class="thm-color"><a  href="<?php echo $pages->get('/')->url?>"> <?= $item->section_title; ?>
+                            </a>
+                        </span></h1>
+                        </edit>
                         <div class="text">
-                            <?= $item->section_description; ?>
+                            <edit 1042.project.section_description>
+                                <?= $item->section_description; ?>
+                            </edit>
                         </div>
                     </div>
                 </div>

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+<?php
+header("Cache-Control: max-age=604800"); 
+?>
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  
+
   <?php echo $page->seo;?>
-  
+
   <!-- favicon -->
   <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
-  <!-- minfiy css files into one  -->
 
-<link rel="stylesheet" href="<?php echo AIOM::CSS(array('styles/custom.css','styles/bootstrap.min.css')); ?>">
+  <link rel="stylesheet" href="<?php echo AIOM::CSS(array('styles/bootstrap.min.css','styles/custom.css')); ?>">
+  <link rel="icon" href="<?php echo $config->urls->templates; ?>"/>
 
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="print" onload="this.media='all'">
 
 </head>
+
 <body>
   <div class="header" id="header">
     <header class="header-area header-style-two">
@@ -50,18 +53,22 @@
                 </li>
                 <li>
                   <i class="fas fa-map-marker-alt"></i>
+                  <a href="#location">
                   <?php echo $contact_info->location; ?>
+                  </a>
                 </li>
                 <li>
-                <i class="fa fa-phone"></i>
-     
-                  <?php echo $contact_info->edit('number'); ?>
+                  <i class="fa fa-phone"></i>
+                  <a href="
+     tel:<?php echo $contact_info->number; ?>">
+                    <?php echo $contact_info->edit('number'); ?>
+                  </a>
                 </li>
                 <!-- <li>
                   <select
     class="select"
     onchange="window.location = this.value;"
->
+> 
     <?php
     $userLanguageFound = false;
     foreach ($languages as $language) {
@@ -100,12 +107,12 @@
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img  src="<?php echo $pages->get('/header/')->image->url; ?>" alt="pbs logo" class="img-fluid" /></a>
-            <button id="menuToggleButton" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-</button>
+            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img src="<?php echo $pages->get('/header/')->image->url; ?>" alt="pbs logo pbs mr pbs sahel " class="img-fluid" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <?php
@@ -136,27 +143,6 @@
       </div>
     </div>
   </div>
-
-
-  <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the button and the menu elements
-    const menuToggleButton = document.getElementById('menuToggleButton');
-    const menu = document.getElementById('navbarSupportedContent');
-
-    // Add click event listener to the button
-    menuToggleButton.addEventListener('click', function() {
-        // Toggle the visibility of the menu
-        if (menu.classList.contains('collapse')) {
-            menu.classList.toggle('show'); // Toggle the 'show' class to control visibility
-            // Update the 'aria-expanded' attribute
-            const isExpanded = menu.classList.contains('show');
-            menuToggleButton.setAttribute('aria-expanded', isExpanded);
-        }
-    });
-});
-</script>
-
 </body>
 
 </html>
