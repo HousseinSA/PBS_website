@@ -157,7 +157,6 @@ namespace ProcessWire;
 							<?= $facilities->sub_title; ?>
 						</h3>
 					</edit>
-					
 					</div>
 					<ul>
 						<?php foreach ($facilities->points as $item) : ?>
@@ -178,8 +177,11 @@ namespace ProcessWire;
 				</div>
 			</div>
 			<div class="col-lg-6 p-0">
-				<div class="facilities-img"
-					style="background-position: center center ; background-size: cover; background: url(<?= $facilities->image->url; ?>) ">
+				<div class="facilities-img">
+					<edit 1030.image>
+					<img src="<?= $facilities->image->url; ?>" alt="pbs mr fabrication pbs sahel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+					>
+				</edit>
 				</div>
 			</div>
 		</div>

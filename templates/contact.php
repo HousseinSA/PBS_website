@@ -16,7 +16,7 @@ $banner_image = $pages->get('/page_banner/');
                 <div class="row">
                     <div class="col-lg-12 col-sm-6">
                         <div class="contact-card">
-                            <i class="fas fa-mobile-alt"></i>
+                        <i class="fa fa-phone"></i>
                             <ul>
                                 <li>
                                     <a href="tel:">
@@ -64,31 +64,31 @@ $banner_image = $pages->get('/page_banner/');
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="text" name="name" id="name" class="form-control" required="" data-error="Veuillez entrer votre nom" placeholder="Votre nom">
+                        <input type="text" name="name" id="name" class="form-control" required="true" data-error="Veuillez entrer votre nom" placeholder="Votre nom">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="email" name="email" id="email" class="form-control" required="" data-error="Veuillez entrer votre email" placeholder="Votre e-mail">
+                        <input type="email" name="email" id="email" class="form-control" required="true" data-error="Veuillez entrer votre email" placeholder="Votre e-mail">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="number" name="number" id="number" class="form-control" required="" data-error="Veuillez entrer votre numéro" placeholder="Numéro de téléphone">
+                        <input type="number" name="number" id="number" class="form-control" required="true" data-error="Veuillez entrer votre numéro" placeholder="Numéro de téléphone">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="text" name="subject" id="subject" class="form-control" required="" data-error="Veuillez entrer votre sujet" placeholder="Votre sujet">
+                        <input type="text" name="subject" id="subject" class="form-control" required="true" data-error="Veuillez entrer votre sujet" placeholder="Votre sujet">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <textarea name="message" class="message-field" id="message" rows="5" required="" data-error="Veuillez taper votre message" placeholder="Écrire un message"></textarea>
+                        <textarea name="message" class="message-field" id="message" rows="5" required="true" data-error="Veuillez taper votre message" placeholder="Écrire un message"></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>

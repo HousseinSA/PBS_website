@@ -19,3 +19,19 @@
 2024-04-30 23:30:32	admin1	http://localhost/processwire-dev/admin/setup/cache-control/?action=all	Deleted all WireCache entries except for reserved system entries ($cache-&gt;deleteAll()).
 2024-04-30 23:30:32	admin1	http://localhost/processwire-dev/admin/setup/cache-control/?action=all	Cleared the template render cache.
 2024-04-30 23:30:32	admin1	http://localhost/processwire-dev/admin/setup/cache-control/?action=all	Cleared all stored asset versions.
+2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	ProcessCacheControl installed successfully. Creating the dedicated log file.
+2024-05-16 21:46:53	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Expired all WireCache entries that have an expiration data ($cache-&gt;expireAll()).
+2024-05-16 21:46:53	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Deleted all WireCache entries except for reserved system entries ($cache-&gt;deleteAll()).
+2024-05-16 21:46:53	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared the template render cache.
+2024-05-16 21:46:53	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Removed all files from the following cache directory: /processwire-master/site/assets/cache/uploads
+2024-05-16 21:46:53	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared all stored asset versions.
+2024-05-16 21:46:58	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Expired all WireCache entries that have an expiration data ($cache-&gt;expireAll()).
+2024-05-16 21:46:58	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Deleted all WireCache entries except for reserved system entries ($cache-&gt;deleteAll()).
+2024-05-16 21:46:58	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared the template render cache.
+2024-05-16 21:46:58	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Removed all files from the following cache directory: /processwire-master/site/assets/cache/uploads
+2024-05-16 21:46:58	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared all stored asset versions.
+2024-05-17 00:05:29	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Expired all WireCache entries that have an expiration data ($cache-&gt;expireAll()).
+2024-05-17 00:05:29	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Deleted all WireCache entries except for reserved system entries ($cache-&gt;deleteAll()).
+2024-05-17 00:05:29	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared the template render cache.
+2024-05-17 00:05:29	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Removed all files from the following cache directory: /processwire-master/site/assets/cache/uploads
+2024-05-17 00:05:29	hussein	http://localhost/processwire-master/admin/setup/cache-control-1/?action=all	Cleared all stored asset versions.

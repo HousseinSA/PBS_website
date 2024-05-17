@@ -509,8 +509,8 @@ button {
     }
     .navbar-brand img {
       width: 180px;
-    }
-    
+    }    
+
     /* Show caption under the slider */
     .caption-under-slider {
         display: block;
@@ -583,6 +583,10 @@ button {
     font-size: 1rem;
     font-weight: normal;
   }
+
+  .facilities-section .facilities-img img   {
+    display: none !important;
+  } 
  
 }
 /*------about--section----*/

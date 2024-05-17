@@ -346,3 +346,4 @@
 2024-05-14 20:51:54	?	?	SQLSTATE[HY000] [1044] Access denied for user 'hussein'@'%' to database 'processwire_db' (in C:\xampp\htdocs\processwire-master\wire\core\WireDatabasePDO.php line 505)
 2024-05-15 16:54:49	?	?	Unable to load Modules - SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (in C:\xampp\htdocs\processwire-master\wire\core\WireDatabasePDO.php line 505)
 2024-05-15 16:54:53	?	?	SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (in C:\xampp\htdocs\processwire-master\wire\core\WireDatabasePDO.php line 505)
+2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CacheControlTools' for key 'class' (in C:\xampp\htdocs\processwire-master\wire\core\WireDatabasePDOStatement.php line 168)

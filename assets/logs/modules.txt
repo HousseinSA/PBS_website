@@ -1375,3 +1375,5 @@
 2024-05-15 18:53:56	hussein	http://localhost/processwire-master/admin/module/	Deleted module 'InputfieldSeoMaestro'
 2024-05-15 18:54:28	hussein	http://localhost/processwire-master/admin/module/	Installed module 'InputfieldSeoMaestro'
 2024-05-15 18:54:28	hussein	http://localhost/processwire-master/admin/module/	Installed module 'FieldtypeSeoMaestro'
+2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	Installed module 'CacheControlTools'
+2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	Installed module 'ProcessCacheControl'

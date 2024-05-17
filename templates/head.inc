@@ -13,8 +13,9 @@ header("Cache-Control: max-age=604800");
   <!-- favicon -->
   <link rel="icon" href="<?php echo $config->urls->templates; ?>img/favicon.png" type="image/x-icon">
 
+  
   <link rel="stylesheet" href="<?php echo AIOM::CSS(array('styles/bootstrap.min.css','styles/custom.css')); ?>">
-  <link rel="icon" href="<?php echo $config->urls->templates; ?>"/>
+  
 
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
