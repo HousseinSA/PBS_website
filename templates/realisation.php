@@ -12,7 +12,7 @@ $banner_image = $pages->get('/page_banner/');
             <div class="row align-items-center  project-item  justify-content-center text-center text-md-left">
                 <div class="col-md-5 col-sm-12 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
                     <figure class="about-img">
-                        <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
+                        <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS mr">
                     </figure>
                 </div>
                 <div class="col-md-7 col-sm-12">
