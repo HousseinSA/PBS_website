@@ -9,13 +9,13 @@ $banner_image = $pages->get('/page_banner/');
     <div class="container">
         <div class="section-title" style="text-align: center;">
             <span>
-                <h1> 
+                <h1>
                     <a href="<?php echo $pages->get('/')->url ?>">
                         <?= $page->section_title; ?>
                     </a>
                 </h1>
             </span>
-            <div class="essai_desc ">
+            <div class="essai_desc">
                 <?= $page->section_description; ?>
             </div>
         </div>

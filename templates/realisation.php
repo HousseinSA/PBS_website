@@ -3,13 +3,13 @@ $banner_image = $pages->get('/page_banner/');
 
 ?>
 <?php include('banner.inc') ?>
-<section class="about-us sec-padd-top" id="content">
+<section class="about-us sec-padd-top projects" id="content">
     <div class="container">
         <?php foreach ($page->realisation as $item) : ?>
             <!-- Reset the counter at the beginning of each realisation iteration -->
             <?php $counter = 0; ?>
             <edit realisation>
-            <div class="row align-items-center justify-content-center text-center text-md-left">
+            <div class="row align-items-center  project-item  justify-content-center text-center text-md-left">
                 <div class="col-md-5 col-sm-12 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
                     <figure class="about-img">
                         <img src="<?= $item->image->url; ?>" class="img-fluid re-img" alt="PBS">
@@ -21,7 +21,7 @@ $banner_image = $pages->get('/page_banner/');
                         <div class="text">
                             <?php foreach ($item->points as $point) : ?>
                                 <?php $counter++; ?>
-                                <div>
+                                <div class="realisation">
                                     <span>
                                         <?php
                                         // Conditionally display "Maitre d'ouvrage:" or "Client:"
@@ -32,8 +32,7 @@ $banner_image = $pages->get('/page_banner/');
                                         }
                                         ?>
                                     </span>
-                                    <!-- Display the section title -->
-                                    <?= $point->section_title; ?>
+                                  <p><?= $point->section_title; ?></p>  
                                 </div>
                             <?php endforeach; ?>
                         </div>

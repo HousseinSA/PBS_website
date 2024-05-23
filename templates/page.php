@@ -11,9 +11,9 @@ namespace ProcessWire;
 		<?php  
 		$hero_section= $pages->get('/hero-section/');
 		foreach ($hero_section->hero_repeater as $hero) : ?>
-		<div class="slide">
-			<img  src="<?= $hero->image->url; ?>" alt="pbs sahel | pbs mr ">
-		</div>
+			<div class="slide">
+        <img width="600" height="450" src="<?= $hero->image->url; ?>" alt="pbs mr | pbs sahel">
+    </div>
 		<?php endforeach; ?>
 	</div>
 
@@ -58,7 +58,7 @@ namespace ProcessWire;
 			<div class="col-lg-5">
 				<div class="about-img">
 					<edit 1021.image>
-					<img src="<?= $about->image->url; ?>" alt=" about pbs pbs sahel | pbs mr" class="img-fluid ">
+					<img loading="lazy" width="400" height="400" src="<?= $about->image->url; ?>" alt=" pbs mr  pbs sahel pbs presentation " class="img-fluid ">
 					</edit>
 				</div>
 			</div>
@@ -67,11 +67,11 @@ namespace ProcessWire;
 				<div class="about-text">
 					<div class="section-title">
 						<span>
-							<h1>
+							<h2>
 							<a href="<?php echo $pages->get('/presentation/')->url?>">
 								<?= $about->section_title; ?>
 							</a>
-							</h1>
+							</h2>
 						</span>
 						<?php
 						$item_number = 1;
@@ -104,11 +104,11 @@ namespace ProcessWire;
 	<div class="container">
 		<div class="section-title text-center">
 			<span>
-				<h1>
+				<h2>
 				<a href="<?php echo $pages->get('/essai/')->url?>">
 					<?= $fabrication->section_title; ?>
 				</a>
-				</h1>
+				</h2>
 			</span>
 		</div>
 		<div class="row">
@@ -135,7 +135,7 @@ namespace ProcessWire;
 </section>
 <!-- services section ends  -->
 
-<!-- polutique qualitue section starts  -->
+<!-- polutique qualities section starts  -->
 <?php $facilities = $pages->get('/facilities/') ?>
 <section class="facilities-section">
 	<div class="container-fluid">
@@ -145,11 +145,11 @@ namespace ProcessWire;
 					<div class="section-title ">
 						<span>
 							<edit 1030.section_title>
-							<h1>
+							<h2>
 							<a href="<?php echo $pages->get('/realisation/')->url?>">
 								<?= $facilities->section_title; ?>
 							</a>
-							</h1>
+							</h2>
 							</edit>
 						</span>
 						<edit 1030.sub_title>
@@ -179,9 +179,9 @@ namespace ProcessWire;
 			<div class="col-lg-6 p-0">
 				<div class="facilities-img">
 					<edit 1030.image>
-					<img src="<?= $facilities->image->url; ?>" alt="pbs mr fabrication pbs sahel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+					<img loading="lazy" width="400" height="300" src="<?= $facilities->image->url; ?>" alt="pbs mr fabrication pbs sahel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
 					>
-				</edit>
+				</edit>	
 				</div>
 			</div>
 		</div>
@@ -201,7 +201,7 @@ namespace ProcessWire;
 						<?php foreach ($pages->get('/clients/')->images as $logo) : ?>
 						<div class="item  logo-item  wow slideInLeft" data-wow-delay=".5s">
 							<edit 1044.images.icon_image>
-								<img src="<?= $logo->icon_image->url; ?>" class="img-fluid client-img"
+								<img loading="lazy" width="140" height="140" src="<?= $logo->icon_image->url; ?>" class="img-fluid client-img"
 									alt="pbs clients pbs sahel | pbs mr">
 							</edit>
 							<h3>

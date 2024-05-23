@@ -91,10 +91,6 @@ button {
 
 /* client image */
 
-.client-img {
-  max-width: 150px !important;
-  max-height: 150px !important;
-}
 
 .navbar-toggler:focus {
   outline: none;
@@ -202,11 +198,28 @@ button {
   margin-right: 10px;
 }
 
+
+/* projects and realisation styling */
+.projects h1 {
+  font-size: 2rem !important;
+}
+.projects  p, .realisation span  {
+font-size: 18px !important;
+}
+
+.project-item {
+  margin-bottom: 1.5rem !important;
+}
 @media only screen and (max-width: 850px) {
   /* remove social  */
   .header-area .header-left {
     display: none;
   }
+  /* projects */
+
+  .projects h1 {
+    font-size: 1.9rem !important;
+  } 
 
   .slide img {
    height: 250px !important;
@@ -509,8 +522,13 @@ button {
     }
     .navbar-brand img {
       width: 180px;
-    }    
-
+    }
+    /* client images */
+    .logo-item .client-img {
+      width: 120px !important;
+      height: 120px !important;
+    }
+    
     /* Show caption under the slider */
     .caption-under-slider {
         display: block;
@@ -537,13 +555,15 @@ button {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+
  
 }
 
-.essai_desc p{
+.essai_desc p {
     font-weight: bold !important;
   margin: 1.5rem !important   ;
   font-size: 1.2rem;
+  color: black !important;
 }
 
 .essai_item {
@@ -551,7 +571,7 @@ button {
   flex-direction: column !important;
   gap: 0.5rem;
 }
-.essai_container img {
+.essai_container img , figure img {
   min-width: 200px ;
   min-height: 200px ;
   width: 450px;
@@ -583,10 +603,6 @@ button {
     font-size: 1rem;
     font-weight: normal;
   }
-
-  .facilities-section .facilities-img img   {
-    display: none !important;
-  } 
  
 }
 /*------about--section----*/
@@ -659,7 +675,7 @@ button {
 }
 
 
-.about-style-two .about-text .section-title h1 {
+.about-style-two .about-text .section-title h2 ,.about-style-two .about-text .section-title h1 {
   max-width: 500px;
 }
 
@@ -668,7 +684,7 @@ button {
    footer---
    ----------------*/
 .footer-area {
-  background-color: #333;
+  background-color: #4C4C4C;
 }
 .footer-area .footer-widget {
   margin-bottom: 30px;
@@ -794,13 +810,13 @@ button {
 
 /*--------service--section----*/
 
-.section-title h1 {
+.section-title h2 , .section-title h1 {
   font-size: 23px;  
   margin-bottom: 0 !important;
   font-weight: 600;
 }
 
-.section-title h1 a {
+.section-title h2 a , .section-title h1 a {
   color:#1f1c0c !important ;
 }
 .section-title h3 {
@@ -830,9 +846,9 @@ button {
 
 .section-title p {
   max-width: 720px;
-  color: #4a483e;
   margin: 0 auto;
 }
+
 
 /*----facility------*/
 
@@ -877,11 +893,11 @@ button {
   margin-bottom: 25px !important;
 }
 
-.facilities-section .facililties-text .section-title h1,
+.facilities-section .facililties-text .section-title h2,
 .facilities-section .facililties-text .section-title p {
   color: #ffffff !important;
 }
-.facilities-section .facililties-text .section-title h1 a  {
+.facilities-section .facililties-text .section-title h2 a  , .facilities-section .facililties-text .section-title h1 a   {
   color: #ffffff !important;
   
 }
@@ -1194,18 +1210,26 @@ contact-section .contact-area .default-btn:hover {
 
 }
 /* clients images sizes  */
+
 .logo-item {
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  gap: .5rem;
   align-items: center !important;
 }
-.logo-item img {
+
+
+.client-img {
   width: 140px !important;
   height: 140px !important;
 }
 
-/*--------pages--styless------*/
+.logo-item h3 {
+  text-align: center !important;
+}
+
+/*--------pages--styles------*/
 
 .about-us {
   background: rgba(248, 249, 249, 0.69);

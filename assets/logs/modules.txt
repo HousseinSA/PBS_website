@@ -1377,3 +1377,5 @@
 2024-05-15 18:54:28	hussein	http://localhost/processwire-master/admin/module/	Installed module 'FieldtypeSeoMaestro'
 2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	Installed module 'CacheControlTools'
 2024-05-16 21:39:08	hussein	http://localhost/processwire-master/admin/module/	Installed module 'ProcessCacheControl'
+2024-05-21 11:13:32	hussein	http://localhost/pbs-mr/admin/module/edit?name=TextformatterAutoSchema&collapse_info=1	Uninstalled module 'TextformatterAutoSchema'
+2024-05-21 11:13:38	hussein	http://localhost/pbs-mr/admin/module/	Deleted module 'TextformatterAutoSchema'

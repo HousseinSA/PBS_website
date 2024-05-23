@@ -6,10 +6,10 @@ $banner_image = $pages->get('/page_banner/');
 <?php include('banner.inc') ?>
 
 
-<section class="about-us sec-padd-top " id="content">
-    <div class="container">
+<section class="about-us projects sec-padd-top " id="content">
+    <div class="container"> 
         <?php foreach ($page->project as $item) : ?>
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center project-item justify-content-center">
                 <div class="col-md-5 col-sm-12 d-flex justify-content-center justify-content-md-end mb-3 mb-md-0">
                     <edit 1042.project.image>
                         <figure class="about-img">

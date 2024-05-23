@@ -18,8 +18,8 @@ header("Cache-Control: max-age=604800");
   
 
   <!-- font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="print" onload="this.media='all'">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 </head>
 
@@ -108,7 +108,7 @@ header("Cache-Control: max-age=604800");
       <div class="header-inner" id="header-inner">
         <div class="container">
           <nav class="navbar navbar-expand-lg my-navbar p-0">
-            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img src="<?php echo $pages->get('/header/')->image->url; ?>" alt="pbs logo pbs mr pbs sahel " class="img-fluid" /></a>
+            <a class="navbar-brand" href="<?php echo $pages->get('/')->url; ?>"><img width="200" height="100" src="<?php echo $pages->get('/header/')->image->url; ?>" alt="pbs logo pbs mr pbs sahel " class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>

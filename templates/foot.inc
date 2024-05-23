@@ -86,12 +86,12 @@
       
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="<?php echo AIOM::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/bootstrap.min.js')); ?>"></script>
+<script src="<?php echo AIOM::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/bootstrap.min.js')); ?> " ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
             
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+
 
 <script>
-
   $(document).ready(function ($) {
     var $element = $('.counter');
     if ($element.length > 0) {
@@ -103,26 +103,7 @@
   });
 </script>
 
-<!-- hero-slider -->
-
-<script>
-$(document).ready(function() {
-    $('.slider-container').slick({
-        autoplay: true,
-        autoplaySpeed: 4000, // Slides every 4 seconds
-        speed: 1000, // Transition speed
-        arrows: false, // Remove arrows
-        dots: false, // Remove dots
-        fade: false, // Use slide animation
-        cssEase: 'linear',
-        pauseOnHover: false, // Continue sliding on hover
-        pauseOnFocus: false, // Continue sliding on focus
-       
-    });
-});
-</script>
-
-
+<!-- client slider -->
 
 
 
@@ -163,6 +144,32 @@ $(document).ready(function() {
     }]
   });
 </script>
+
+
+
+
+
+<!-- hero-slider -->
+
+
+
+<script>
+$(document).ready(function() {
+    $('.slider-container').slick({
+        autoplay: true,
+        autoplaySpeed: 4000, // Slides every 4 seconds
+        speed: 1000, // Transition speed
+        arrows: false, // Remove arrows
+        dots: false, // Remove dots
+        fade: false, // Use slide animation
+        cssEase: 'linear',
+        pauseOnHover: false, // Continue sliding on hover
+        pauseOnFocus: false, // Continue sliding on focus
+       
+    });
+});
+</script>
+
 
 
 

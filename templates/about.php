@@ -9,7 +9,7 @@ $banner_image = $pages->get('/page_banner/'); ?>
       <div>
         <figure class="about-img">
           <edit 1021.objectif_img>
-            <img src="<?= $page->objectif_img->url ?>" class="img-fluid" alt="pbs mr pbs sahel pbs mauritania " />
+            <img width="400" height="400" src="<?= $page->objectif_img->url ?>" class="img-fluid" alt="pbs mr pbs sahel pbs mauritania " />
           </edit>
         </figure>
       </div>
@@ -18,7 +18,7 @@ $banner_image = $pages->get('/page_banner/'); ?>
           <div class="section-title">
             <span>
               <h1>
-                <a href="<?php echo $pages->get('/')->url; ?>
+                <a href="<?= $pages->get('/')->url; ?>
 ">
                   <?php echo $page->objectif_title; ?>
                 </a>
