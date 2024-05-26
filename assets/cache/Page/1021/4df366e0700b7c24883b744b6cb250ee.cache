@@ -40,15 +40,14 @@
 <meta name="msvalidate.01" content="A9CFA03B818B2C900BA451B15190AFCE">
   <!-- favicon -->
   <link rel="icon" href="/pbs-mr/site/templates/img/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="/pbs-mr/site/templates/styles/custom.css">
-  <link rel="stylesheet" href="/pbs-mr/site/templates/styles/bootstrap.min.css">
 
   
+  <link rel="stylesheet" href="/pbs-mr/site/assets/aiom/css_3e13edd67056a384a6694b0050a1a33d.css">
   
 
   <!-- font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="print" onload="this.media='all'">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 </head>
 
@@ -174,9 +173,9 @@
   <div class="container">
     <div class="about-container">
       <div>
-        <figure class="aboutp-img">
+        <figure class="about-img">
           <edit 1021.objectif_img>
-            <img src="/pbs-mr/site/assets/files/1021/base_nktt_0x260.jpg" class="img-fluid" alt="pbs mr pbs sahel pbs mauritania " />
+            <img width="400" height="400" src="/pbs-mr/site/assets/files/1021/base_nktt_0x260.jpg" class="img-fluid" alt="pbs mr pbs sahel pbs mauritania " />
           </edit>
         </figure>
       </div>
@@ -289,7 +288,7 @@ Un Laboratoire</li>
       
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="/pbs-mr/site/assets/aiom/js_aa4581ab6599da255f13841e57f41955.js " ></script>
+<script src="/pbs-mr/site/assets/aiom/js_20617e5b711aed635ce8d255e90c1188.js " ></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
             
 

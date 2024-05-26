@@ -64,7 +64,7 @@
       <div class="col-lg-6 col-sm-12">
         <div class="footer-widget">
           <h3>Localisation</h3>
-          <iframe title="pbs location" id="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3795.690852071989!2d-15.980006224822128!3d17.94656748303919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU2JzQ3LjYiTiAxNcKwNTgnMzguOCJX!5e0!3m2!1sen!2s!4v1715368894833!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d370.5679166052162!2d-15.977675706966943!3d17.94643354696707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU2JzQ3LjYiTiAxNcKwNTgnMzguOCJX!5e1!3m2!1sen!2s!4v1716684880201!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -87,8 +87,8 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 <script src="<?php echo AIOM::JS(array('scripts/jquery-3.3.1.slim.min.js','scripts/bootstrap.min.js')); ?> " ></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
-            
+
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
 
 
 <script>

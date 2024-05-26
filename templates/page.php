@@ -5,18 +5,17 @@ namespace ProcessWire;
 ?>
 
 <?php include('head.inc'); ?>
-<!-- hero section start  -->
+<!-- hero section start  -->	
 <div class="slider-section">
 	<div class="slider-container">
 		<?php  
 		$hero_section= $pages->get('/hero-section/');
 		foreach ($hero_section->hero_repeater as $hero) : ?>
 			<div class="slide">
-        <img width="600" height="450" src="<?= $hero->image->url; ?>" alt="pbs mr | pbs sahel">
+        <img  width="600" height="450" src="<?= $hero->image->url; ?>" alt="pbs mr | pbs sahel">
     </div>
 		<?php endforeach; ?>
 	</div>
-
 	<!-- Caption over the images -->
 	<div class="caption-over-images">
 		<edit 1015.section_title>
@@ -45,9 +44,7 @@ namespace ProcessWire;
 		<?= $hero_section->sub_title; ?>
 	</p>
 </div>
-
 <!-- hero section ends  -->
-
 
 <!-- about section start  -->
 <section class="about-style-two py-5">
@@ -58,7 +55,7 @@ namespace ProcessWire;
 			<div class="col-lg-5">
 				<div class="about-img">
 					<edit 1021.image>
-					<img loading="lazy" width="400" height="400" src="<?= $about->image->url; ?>" alt=" pbs mr  pbs sahel pbs presentation " class="img-fluid ">
+					<img  width="400" height="400" src="<?= $about->image->url; ?>" alt=" pbs mr  pbs sahel pbs presentation " class="img-fluid ">
 					</edit>
 				</div>
 			</div>
